@@ -10,17 +10,17 @@ fi
 # define our file paths
 SOURCE=dev
 if [ $DEBUG = 1 ]; then
-    DESTINATION=../site-debug
+    DESTINATION=./site-debug
 else
-    DESTINATION=../site
+    DESTINATION=./site
 fi
 
 # build, extract, and run site-buildier binary
-cargo build --release --manifest-path=../site-builder-rs/Cargo.toml
+cargo build --release --manifest-path=./site-builder-rs/Cargo.toml
 if [ $DEBUG = 1 ]; then
-    RUST_BACKTRACE=1 ../site-builder-rs/target/release/site-builder -s $SOURCE -d $DESTINATION --debug
+    RUST_BACKTRACE=1 ./site-builder-rs/target/release/site-builder -s $SOURCE -d $DESTINATION --debug
 else
-    ../site-builder-rs/target/release/site-builder -s $SOURCE -d $DESTINATION
+    ./site-builder-rs/target/release/site-builder -s $SOURCE -d $DESTINATION
 fi
 
 # tidy up final output

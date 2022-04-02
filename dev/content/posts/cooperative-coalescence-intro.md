@@ -3,7 +3,8 @@ type::post
 post.metadata:json
 +++
 {
-    "content_name": "Cooperative Coalescence: An Introduction",
+    "content_name": "cooperative-coalescence-intro",
+    "directory" : "coalescence",
     "author_name": "jak",
     "published_date": "March 13, 2022",
     "version": 1

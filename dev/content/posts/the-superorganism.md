@@ -3,7 +3,8 @@ type::post
 post.metadata:json
 +++
 {
-    "content_name": "The Superorganism",
+    "content_name": "the-superorganism",
+    "directory" : "coalescence",
     "author_name": "jak",
     "published_date": "March 27, 2022",
     "version": 1
@@ -19,6 +20,8 @@ post:json
 
 post.content:markdown->html
 +++
+Here's an intro to this post;
+
 <section>
     <section-title>Our Starting Point</section-title>
     <p>
@@ -41,14 +44,24 @@ post.content:markdown->html
         This is a perfectly fine way of interpreting the structures of life and how they relate to each other. My goal with the rest of this article is to introduce some new concepts from different branches of science and philosophy that will ultimately help us to see a different, and I'd argue <em>more complete</em>, way of interpreting these structures.
     </p>
     <p>
-        Why is it important to spend time on the details of categorizing this biological hierarchy? Aren't there more important things we could spend time understanding? My core argument is that most people try to understand the world with a unstructured approach, making sense of each idea in isolation as they encounter it, and only tying it to other ideas if there is a close and obvious match. To build a strong philosophical system we must first build a foundation, and a foundation must be built as close to the ground as possible. To me, this means doing what we're doing in this article, which is making sure we have a philosophically up-to-date and thorough understanding of two existential questions: <strong>"What does it mean to be alive?"</strong> and <strong>"Are humans special?"</strong>
+        Why is it important to spend time on the details of categorizing this biological hierarchy? Aren't there more important things we could spend time understanding? My core argument is that most people try to understand the world with an unstructured approach, making sense of each idea in isolation as they encounter it, and only tying it to other ideas if there is a close and obvious match.
+    </p>
+    <p>
+        My hope is to prove that we can build our understanding of the world from the bottom up, instead of from the top down. To build a strong philosophical system we must first build a foundation, and a foundation must be built as close to the ground as possible. To me, this means doing what we're doing in this article, which is making sure we have a philosophically thorough and scientifically up-to-date understanding of two existential questions:
+    </p>
+        <ol>
+            <li>What does it mean to be alive?</li>
+            <li>Are humans special among living things?</li>
+        </ol>
+    <p>
+        The answer to these two questions shape every aspect of human society, and yet for many of us, our answers tend to be quite shallow.
     </p>
 </section>
 
 <section>
     <section-title>New Lenses</section-title>
     <p>
-        With our status quo defined and our intentions set, our next step is to acquire some new <em>lenses</em>. I'll dig more deeply into lenses later in a dedicated post, but for now, in short: **Lenses are ideas we can use to better understand the world.** Just like we look through the lens of a telescope to see into the distance, or the lens of a microscope to see small things, or the lens of a camera to frame visual compositions, these "idea" lenses help change our perspective to see "more" of the truth.
+        With our status quo defined and our intentions set, our next step is to acquire some new <em>lenses</em>. I'll dig more deeply into lenses later in a dedicated post, but for now, in short: <strong>Lenses are ideas we can use to better understand the world.</strong> Just like we look through the lens of a telescope to see into the distance, or the lens of a microscope to see small things, or the lens of a camera to frame visual compositions, these "idea" lenses help change our perspective to see "more" of the truth.
     </p>
     <h2>Emergent Behavior</h2>
     <p>

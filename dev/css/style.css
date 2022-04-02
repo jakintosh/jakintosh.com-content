@@ -1,6 +1,6 @@
 /* ======== Font Import ========= */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rubik:ital,wght@0,300;0,400;0,700;1,400&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* ======== Color Schemes ======== */
 
@@ -118,12 +118,9 @@
 	--font-size: 12pt;
 	--header-font-size: calc( var(--font-size) * 3 );
 	--font-color: var(--fg);
-	/* --reading-font: inherit;
+	--reading-font: 'Inter', sans-serif;
 	--heading-font: sans-serif;
-	--impact-font: monospace; */
-	--reading-font: 'Inter', serif;
-	--heading-font: 'Rubik', sans-serif;
-	--impact-font: 'Ubuntu Mono', sans-serif;
+	--impact-font: 'Ubuntu Mono', monospace;
 
 	padding: 0;
 	margin: 0;
@@ -153,7 +150,7 @@ a:visited {
 }
 
 strong {
-	--accent-color: var(--accent-color-invert);
+	--accent-color: rgb(var(--accent-color-invert-raw));
 	--interactive-color: var(--interactive-color-invert);
 	--font-color: var(--bg);
 
@@ -188,7 +185,7 @@ h1 {
 h2 {
 	font-size: 125%;
 	text-transform: uppercase;
-	margin-block-start: 2rem;
+	margin-block-start: 3rem;
 	margin-block-end: 0.75rem;
 }
 h2:first-child {
@@ -346,7 +343,7 @@ nav, nav.xray {
 	left: calc( var(--left-content-margin) - var(--sidebar-gutter-width) );
 	padding: 0.5rem;
 	padding-right: 0;
-	border-right: 2pt solid var(--bar-color);
+	border-right: 1pt solid var(--bar-color);
 }
 nav a {
 	display: block;
@@ -374,7 +371,7 @@ section-title {
 	margin-bottom: 0.25em;
 }
 
-.content-container > section:not(:first-child)::before {
+.content-container > section:not(:first-of-type)::before {
 	content: "~~~";
 	display: block;
 	font-size: 48pt;
@@ -385,14 +382,14 @@ section-title {
 
 section-title::before {
 	display: block;
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 
 	font-family: var(--impact-font);
 	font-size: 0.5em;
 	text-transform: uppercase;
 }
 .content-container > section > section-title::before {
-	content: "section " counter(section) ":";
+	content: "■ section " counter(section) ":";
 	font-weight: bold;
 	counter-increment: section;
 }
@@ -403,7 +400,7 @@ section *:last-child  {
 
 
 section.status-quo > section-title::before {
-	content: "Status Quo";
+	content: "■ Status Quo";
 }
 section.status-quo {
 	display: block;
@@ -418,7 +415,7 @@ section.status-quo concept-field {
 }
 
 section.new-concept > section-title::before {
-	content: "New Concept";
+	content: "■ New Concept";
 	color: var(--accent-color);
 }
 section.new-concept {
@@ -426,7 +423,7 @@ section.new-concept {
 	padding: calc( 1.5 * var(--article-padding) );
 	margin: 1.33rem 0;
 	background-color: var(--bg0);
-	border: 1px solid var(--fg);
+	border: 1pt solid var(--fg);
 	box-shadow: var(--accent-color) 4pt 4pt 0;
 }
 
@@ -453,14 +450,14 @@ concept-definition > *:last-child {
 }
 
 section.thought-experiment > section-title::before {
-	content: "Thought Experiment";
+	content: "■ Thought Experiment";
 }
 section.thought-experiment {
 	display: block;
 	padding: calc( 1.5 * var(--article-padding) );
 	margin: 1.33rem 0;
 	background-color: var(--bg2);
-	border: 2px dashed var(--fg4);
+	border: 1pt dashed var(--fg4);
 }
 related-concept {
 	display: inline;
@@ -558,13 +555,13 @@ content-preview:hover {
 	box-shadow: var(--accent-color) 0.3em 0.3em;
 }
 content-preview content-title {
-	display: inline-block;
+	display: block;
+	margin-bottom: 0.2em;
 	font-size: 125%;
 	font-weight: 700;
 }
 content-preview published-date {
-	display: inline-block;
-	margin-left: 1em;
+	display: block;
 	font-size: 80%;
 	color: var(--fg3);
 }
