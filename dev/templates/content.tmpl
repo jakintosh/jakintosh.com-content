@@ -1,0 +1,8 @@
+{% extends "base.tmpl" -%}
+{% block body -%}
+<section class="content-container{% if data_type is defined %} xray" data-type="{{ data_type }} {%- endif %}">
+    {% if render.html %}
+    {{ render.html }}
+    {% endif %}
+</section>
+{%- endblock body %}

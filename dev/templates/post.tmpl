@@ -1,0 +1,11 @@
+{% extends "base.tmpl" -%}
+{% block body -%}
+<article class="content-container xray" data-type="{% if render.metadata.data_type is defined %}{{ render.metadata.data_type }}{% else %}post{% endif %}">
+    <x-article-header>
+        <x-title>{{ render.title }}</x-title>
+        <x-author>{{ render.metadata.author_name }}</x-author>
+        <x-date>{{ render.metadata.published_date }}</x-date>
+    </x-article-header>
+    {{ render.html }}
+</article>
+{%- endblock body %}

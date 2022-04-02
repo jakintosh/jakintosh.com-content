@@ -1,0 +1,36 @@
+{
+    "site_title": "jakintosh",
+    "language_code": "en-us",
+    "sections": [
+        {
+            "name": "home",
+            "site_path": "",
+            "index_content": "pages/index.md"
+        },
+        {
+            "name": "posts",
+            "site_path": "posts/",
+            "index_content": "pages/posts.html"
+        },
+        {
+            "name": "coalescence",
+            "site_path": "coalescence/",
+            "index_content": "pages/coalescence.html"
+        },
+        {
+            "name": "about",
+            "site_path": "about/",
+            "index_content": "pages/about.md"
+        }
+    ],
+    "content_types": {
+        "post": {
+            "name": "post",
+            "content_template": "post.tmpl"
+        },
+        "html": {
+            "name": "html",
+            "content_template": "content.tmpl"
+        }
+    }
+}

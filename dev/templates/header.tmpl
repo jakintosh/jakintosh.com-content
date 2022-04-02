@@ -1,0 +1,9 @@
+<nav class="xray" data-type="navigation">
+    {% for section in sections %}
+    {%- if section.parent is not defined %}
+    <a class="xray inner right" href="{{ base_url }}/{{ section.site_path }}" data-type="section">/{{ section.name }}</a>
+    {%- else -%}
+    <a class="xray inner right nested" href="{{ base_url }}/{{ section.site_path }}" data-type="tag">**/{{ section.name }}</a>
+    {%- endif %}
+    {% endfor %}
+</nav>

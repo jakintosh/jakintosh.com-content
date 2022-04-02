@@ -1,0 +1,15 @@
+{% if posts | length > 0 %}
+{% for post in posts | values | sort(attribute="metadata.published_date") | reverse | slice(end=3) %}
+<content-preview class="xray inner right" data-type="post">
+    <a href="{{ base_url }}/{{ post.url }}"></a>
+    <content-title>{{ post.title }}</content-title>
+    <published-date>@{{ post.metadata.author_name }} {{ post.metadata.published_date }}</published-date>
+</content-preview>
+{% endfor %}
+{% set post_section = sections | filter(attribute="name", value="posts") | first %}
+<a class="xray inner right" data-type="link" href="{{ base_url }}/{{ post_section.site_path }}">/posts</a>
+{% else %}
+<p>
+    No posts, yet. Check back soon.
+</p>
+{% endif %}

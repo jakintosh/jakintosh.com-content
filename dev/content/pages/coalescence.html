@@ -1,0 +1,168 @@
+type::page
+
+page.metadata:json
++++
+{
+"content_name": "Cooperative Coalescence",
+"author_name": "jak",
+"published_date": "today",
+"updated_date": "tomorrow",
+"version": 1
+}
++++
+
+page:json
++++
+{
+"title": "Cooperative Coalescence"
+}
++++
+
+page.content:html
++++
+<style>
+    :root {
+
+        --accent-light-raw: 51, 170, 97;
+        --accent-dark-raw: 46, 223, 113;
+        --interactive-light-raw: 30, 215, 210;
+        --interactive-dark-raw: 14, 255, 247;
+    }
+
+    title-design {
+        display: block;
+        padding: 0.5rem;
+        margin-bottom: 1em;
+        background-color: var(--fg);
+        text-align: center;
+        border: var(--fg) solid 2px;
+        box-shadow: var(--accent-color-invert) -8px -8px 0, var(--interactive-color) 8px 8px 0;
+    }
+
+    title-design>h1 {
+        font-family: var(--impact-font);
+        font-weight: 700;
+        font-size: 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        title-design>h1 {
+            font-size: 3.33rem;
+        }
+    }
+
+    title-design>h1#coop {
+        color: var(--accent-color-invert);
+        margin-left: -0.4em;
+    }
+
+    title-design>h1#coal {
+        margin-top: -0.925em;
+        margin-left: 0.4em;
+        margin-bottom: 0.25em;
+        color: rgba(var(--interactive-color-raw), 0.9);
+    }
+
+    @media screen and (prefers-color-scheme: dark) {
+        title-design {
+            background-color: var(--bg0);
+            border: var(--fg) solid 2px;
+            box-shadow: var(--accent-color) -8px -8px 0, var(--interactive-color) 8px 8px 0;
+        }
+
+        title-design>h1#coop {
+            color: var(--accent-color);
+        }
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 0.75rem;
+    }
+
+    p a:hover::after {
+        content: " ->";
+        font-family: var(--reading-font);
+    }
+</style>
+
+<title-design class="xray" data-type="title-design">
+    <h1 id="coop">cooperative</h1>
+    <h1 id="coal">coalescence</h1>
+</title-design>
+
+<h2>what is it?</h2>
+<p>
+    <em>Cooperative Coalescence</em> is <strong>a new operating system for humans.</strong>
+    It is an upgrade for your brain that helps you make sense of a complex and interconnected
+    world, and how you fit into it.
+</p>
+
+<h2>why do we need it?</h2>
+<p>
+    The most widely installed operating system, <em>Competitive Individualism</em>, isn't capable
+    of solving global-scale problems. At this moment in history where the world needs to come
+    together to make large-scale change, we are instead falling into disease, economic collapse,
+    and war.
+</p>
+<p>
+    <strong>Something fundamental must change.</strong>
+</p>
+
+<h2>where did it come from?</h2>
+<p>
+    Over hundreds of years, outdated and incorrect assumptions about how the world works gets
+    baked into our cultures and passed down through generations. <em>Cooperative Coalescence</em>
+    was developed by rethinking everything about human individuals and human societies from the
+    ground up. In other words, <strong>it is based on
+        <a href="https://fs.blog/first-principles/">"first principles"</a> thinking.</strong>
+</p>
+<p>
+    It is built on the backs of many great thinkers, philosophies, and religious traditions. It is
+    not the product of one person, but the culmination of thousands of years of humanity grasping
+    for understanding. Its origin is so fundamental to what it is, that it's part of the name:
+    <em>cooperative</em>, meaning "working together", and <em>coalescence</em>, meaning "coming
+    together". It is the product of many people across time working together intentionally and
+    unintentionally to define human experience.
+</p>
+
+<h2>how do i... "install" it?</h2>
+<p>
+    To install this new operating system means three things.
+</p>
+<p>
+    <b>Metacognition:</b> we'll learn about <em>metacognition</em>, which is a fancy word that
+    means "thinking about thinking". Before we worry about learning and unlearning specific
+    assumptions about the world, we'll learn how to not fall into thinking traps, and new mental
+    models for thinking about complex topics.
+</p>
+<p>
+    <b>Deprogram:</b> we will begin the process of uninstalling our current cultural operating
+    system. For most of us, this is some version of <em>Competitive Individualism</em>. We'll do
+    this by using the thinking tools for metacognition and complexity from step one to criticize
+    and ultimately discard most of that operating system.
+</p>
+<p>
+    <b>Reprogram:</b> we learn the core concepts of <em>Cooperative Coalescence</em>.
+</p>
+
+<h2>when will it be available?</h2>
+<p>
+    I'll be updating this site frequently over the coming weeks and months. In the early phase
+    (right now), I'll be writing individual posts where I explore the core concepts separately. I
+    will link those posts here as they are written. Eventually, the posts will be combined into a
+    more complete manifesto, which will live on this section of the site. Eventually, there will
+    be a YouTube channel for audiovisual learners as well.
+</p>
+<p>
+    The posts so far:
+</p>
+<recent-posts>
+    {% include "components/recent-posts.html" %}
+</recent-posts>
+
+<h2>who are you?</h2>
+<p>
+    I'm just a guy who thinks a lot.
+</p>
++++
