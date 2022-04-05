@@ -8,19 +8,14 @@
             "index_content": "pages/index.md"
         },
         {
-            "name": "posts",
-            "site_path": "posts/",
-            "index_content": "pages/posts.html"
+            "name": "about",
+            "site_path": "about/",
+            "index_content": "pages/about.md"
         },
         {
             "name": "coalescence",
             "site_path": "coalescence/",
             "index_content": "pages/coalescence.html"
-        },
-        {
-            "name": "about",
-            "site_path": "about/",
-            "index_content": "pages/about.md"
         }
     ],
     "content_types": {
