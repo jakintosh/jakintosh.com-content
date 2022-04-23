@@ -20,6 +20,10 @@ page:json
 
 page.content:markdown->html
 +++
+<x-article-header>
+    <x-title>jakintosh.com</x-title>
+    <x-date>April 7th, 2022: <a href="coalescence/the-superorganism.html">The Superorganism</a></x-date>
+</x-article-header>
 <section id="author">
     <section-title>About the Author</section-title>
     <p>

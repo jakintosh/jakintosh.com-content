@@ -8,11 +8,6 @@
             "index_content": "pages/index.md"
         },
         {
-            "name": "about",
-            "site_path": "about/",
-            "index_content": "pages/about.md"
-        },
-        {
             "name": "coalescence",
             "site_path": "coalescence/",
             "index_content": "pages/coalescence.html"
