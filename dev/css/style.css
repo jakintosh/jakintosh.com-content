@@ -184,18 +184,22 @@ h1 {
 	margin-block-end: 0.5em;
 }
 
-h2 {
+h2,
+x-subsection>x-section-title {
 	font-size: 125%;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin-block-start: 3rem;
 	margin-block-end: 0.75rem;
 }
 
-h2:first-child {
+h2:first-child,
+x-subsection>x-section-title:first-child {
 	margin-block-start: 0;
 }
 
-h2::before {
+h2::before,
+x-subsection>x-section-title::before {
 	content: "--> ";
 	margin-left: calc(-1 * var(--article-padding));
 }
@@ -338,6 +342,7 @@ footer {
 footer hr {
 	border-color: var(--fg);
 	border-style: solid;
+	border-width: 0.5pt;
 	margin: 0 0 1rem 0;
 }
 
@@ -383,6 +388,12 @@ section {
 	margin-block-end: 2rem;
 }
 
+x-subsection {
+	display: block;
+	margin-block-start: 2em;
+	margin-block-end: 2em;
+}
+
 section>*:last-child {
 	margin-block-end: 0;
 }
@@ -403,6 +414,7 @@ section.site-sections,
 section.recent-posts {
 	border: 1px solid var(--fg);
 	box-shadow: var(--fg2) 4pt 4pt 0;
+	margin-right: 4pt;
 }
 
 section.thought-experiment {
@@ -411,8 +423,9 @@ section.thought-experiment {
 }
 
 section.new-concept {
-	border: 1px solid var(--accent-color);
-	box-shadow: var(---accent-color) 4pt 4pt 0;
+	border: 1px solid var(--fg);
+	box-shadow: var(--accent-color) 4pt 4pt 0;
+	margin-right: 4pt;
 }
 
 .content-container>section:not(:first-of-type)::before {
@@ -425,7 +438,7 @@ section.new-concept {
 }
 
 
-section-title {
+section>x-section-title {
 	display: block;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -433,7 +446,8 @@ section-title {
 	margin-bottom: 0.25em;
 }
 
-section-title::before {
+section>x-section-title::before,
+x-concept::before {
 	display: block;
 	margin-bottom: 0.75em;
 
@@ -443,41 +457,32 @@ section-title::before {
 }
 
 
-.content-container>section>section-title::before {
+.content-container>section>x-section-title::before {
 	content: "■ section "counter(section) ":";
 	font-weight: bold;
 	counter-increment: section;
 }
 
 
-section.status-quo>section-title::before {
+section.status-quo>x-section-title::before {
 	content: "■ Status Quo";
 }
 
-section.new-concept>section-title::before {
+section.new-concept>x-section-title::before {
 	content: "■ New Concept";
 	color: var(--accent-color);
 }
 
-section.thought-experiment>section-title::before {
+section.thought-experiment>x-section-title::before {
 	content: "■ Thought Experiment";
 }
 
-section.site-sections>section-title::before {
+section.site-sections>x-section-title::before {
 	content: "■ Content Group";
 }
 
-section.recent-posts>section-title::before {
+section.recent-posts>x-section-title::before {
 	content: "■ Content Group";
-}
-
-section.new-concept {
-	display: block;
-	padding: calc(1.5 * var(--article-padding));
-	margin: 1.33rem 0;
-	background-color: var(--bg0);
-	border: 1pt solid var(--fg);
-	box-shadow: var(--accent-color) 4pt 4pt 0;
 }
 
 concept-field {
@@ -528,6 +533,101 @@ related-concept:not(:first-of-type)::before {
 	padding-inline-end: 0.5em;
 	font-weight: normal;
 	color: var(--fg3);
+}
+
+section.proof {
+	max-width: 360pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+x-concept {
+	display: block;
+	padding: 0.25em 0.5em;
+	background-color: var(--bg0);
+	font-weight: bold;
+	font-size: 120%;
+	border: var(--fg) solid 1pt;
+}
+
+x-given,
+x-then {
+	display: block;
+	position: relative;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	margin: 1em 0;
+	border-left: var(--fg) solid 1pt;
+}
+
+x-concept::before {
+	content: "■ concept";
+}
+
+x-given::before {
+	content: "given";
+}
+
+x-then::before {
+	content: "then";
+}
+
+x-and::before {
+	content: "and";
+}
+
+x-or::before {
+	content: "or";
+}
+
+x-and::before,
+x-or::before {
+	display: block;
+	margin: 1em 4em;
+	padding: 0.333em 1em;
+	border: var(--fg) solid 1pt;
+	background-color: var(--bg0);
+	font-size: 75%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+x-given::before,
+x-then::before {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.333em 1em;
+	border: var(--fg) solid 1pt;
+	color: var(--bg0);
+	background-color: var(--accent-color);
+	border-left: none;
+	font-size: 75%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+x-given::after,
+x-then::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 33%;
+	border-bottom: var(--fg) solid 1pt;
+}
+
+section.proof section.status-quo {
+	margin: 0;
+	margin-bottom: 4pt;
+}
+
+x-collection>*:last-child {
+	margin-bottom: 0;
 }
 
 /* ======== Node Summary ======== */
@@ -625,6 +725,7 @@ x-article-header {
 	--font-color: var(--bg);
 	color: var(--font-color);
 	display: block;
+	margin-right: 8pt;
 	margin-bottom: 3rem;
 	background-color: var(--fg);
 	box-shadow: var(--accent-color-invert) 8px 8px 0;
@@ -725,7 +826,7 @@ x-arrow-connector {
 	background-color: var(--fg);
 	margin: 2rem auto;
 	width: 2px;
-	height: 80px;
+	height: 60px;
 }
 
 x-arrow-connector::before {
@@ -743,7 +844,7 @@ x-arrow-connector::after {
 	display: block;
 	border: 12px solid transparent;
 	border-top: 12px solid var(--fg);
-	transform: translateX(-11px) translateY(68px);
+	transform: translateX(-11px) translateY(48px);
 }
 
 
