@@ -5,7 +5,7 @@
         {
             "name": "home",
             "site_path": "",
-            "index_content": "pages/index.md"
+            "index_content": "pages/index.sam"
         },
         {
             "name": "coalescence",
