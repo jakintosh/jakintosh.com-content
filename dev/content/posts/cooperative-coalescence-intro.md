@@ -6,7 +6,7 @@ post.metadata:json
     "content_name": "cooperative-coalescence-intro",
     "directory" : "coalescence",
     "author_name": "jak",
-    "published_date": "March 13, 2022",
+    "published_date": "2022-03-13",
     "version": 1
 }
 +++
