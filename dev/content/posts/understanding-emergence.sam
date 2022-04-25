@@ -3,7 +3,7 @@ type::post
 post.metadata:json
 +++
 {
-	"content_name": "understanding-emergence",
+	"content_name": "Understanding Emergence",
 	"directory" : "coalescence",
 	"author_name": "jak",
 	"published_date": "2022-04-24",
@@ -14,7 +14,8 @@ post.metadata:json
 post:json
 +++
 {
-	"title": "Understanding Emergence"
+	"title": "Understanding Emergence",
+	"slug": "understanding-emergence"
 }
 +++
 
@@ -50,13 +51,56 @@ section: Systems in a Nutshell
 			x-field: Systems Theory
 			x-field: Cybernetics
 			x-definition:
-				Systems are models, yo.
+				A system is not a "real" thing, but a tool for {modeling the relationships}(em) between "real" things. We can look at a single thing (like a river) as a part of many systems (like the water cycle, an ecological habitat, or a component in the local logging economy). The "systems" that we identify are just ways to model the world, and there are an almost endless number of ways to do that.
+				
+				Because systems are models, we can {expand}(strong) or {contract}(strong) the model to include or exclude other components. It is up to us to determine the right level of abstraction when modeling a system.
 
 	x-subsection: The Universal System
 
-		hey
+		So, systems are just "ways of looking at the relationships between things by studying their inputs, processes, and outputs". We've also determined that, since systems are just models, we can expand and contract those models to make a system larger and more detailed. That raises an interesting question: {is there a limit to how far you can expand a system?}(em)
 
-section: Part III
+		The answer is {"Yes"}(em), and that limit is {The Universal System}(strong).
 
-	Even more words.
+		section:(class="new-concept") The Universal System
+			x-field: Physics
+			x-field: Philosophy
+			x-definition:
+				The Universal System is a conceptual model of all the matter in the universe being acted upon by every known and unknown law of physics. Every physical system is a subset of the Universal System.
+
+				{(Non-physical systems—systems of ideas—are rooted in their own base-level Universal System of Mathematics and Logic, which can be tied into the physical Universal System. We will explore this in depth in a later article, but for now we'll stick to tangible physical systems since they're easier to visualize.)}(em)
+
+		Every physical system that we model can be expanded out to be represented within the Universal System, which accurately captures every single (sub-)atomic movement and interaction in the universe. Modeled inside the Universal System, our thermostat example becomes about the vibration of air molecules, the flow of electrons in the circuitry, and the electrical resistance in the heating element.
+
+		From there, we can also say that every physical system can be {connected}(em) to every other physical system through the Universal System. Our "atomic level" thermostat system can be incorporated into seemingly unrelated systems through atomic interactions of their components.
+		
+		However, just because you {can}(em) model a system that encompasses a thermostat in your home as well as the humidity in the Sahara Desert, doesn't mean that those parts of the system have a meaningful effect on each other. Remember, systems aren't "real", just models of relationships that help us make sense of things; we still have to choose the right models.
+
+		This raises the final question that leads us into the main topic of this post: {Why does a model "lose potency" when we expand it outward to the Universal System?}(em) I argue that the answer has to do with {emergence}(strong).
+
+section: Emergence
+
+	
+
+	section:(class="thought-experiment") Visualizing Emergent Behavior
+
+		x-related-concept: Emergent Behavior
+
+		Picture in your mind a bin filled with one hundred smooth metal balls, each the size of a tennis ball or a baseball. Now imagine dropping them onto the floor, one at a time, in the same spot. What happens? They bounce off of each other and slide around the floor; some stay nearby, and others roll for quite some distance. In the end, all of the balls are on the floor, spread out over a large area.
+		
+		Next, repeat that same mental experiment with metal cubes of the same size. What happens this time? The cubes don’t roll, though they may bounce around a little bit. After dropping a dozen or so cubes, they may start stacking on top of each other, because the tops of the earlier cubes form a flat surface for new cubes to sit on. In the end, you’ll have a small pile of cubes, perhaps a few cubes high, and all of the cubes will be very close to the starting point.
+		
+		Finally, repeat the mental experiment one more time, but with metal balls that have of dozens of long sharp spikes sticking out of them. The result? Most likely an even taller pile of objects, as the spikes dig into the ground and create a strong stable base, and the spikes of each newly dropped ball get latched into the spikes of the existing pile of balls. They spread even less and stack even higher than the cubes.
+		
+		In each example, we perform the same process (dropping 100 objects in the same spot) but end up with very different outcomes, where the only difference was the shape of an inanimate metal object. The smooth balls created a “thin, slippery” environment, because now there was a layer of rolling balls in a single layer on top of the ground, spread out over a large area. The cubes created a stable, contained structure with a small amount of height. The spikes created a focused and somewhat tall mound that is “sticky”, since other objects moving past or blowing in the wind could easily get stuck in the spikes.
+		
+		The different way these shapes interacted with each other to create new properties is an example of {emergent behavior}(em). Each of the objects are made out of the same material, are roughly the same size, and were brought together in exactly the same way, yet they created very different structures. This property of {emergence}(em) is what differentiates a simple system from a {complex system}(em).
+
+	x-arrow-connector:
+
+	section:(class="new-concept") Emergent Behavior
+		x-field: Cybernetics
+		x-field: Systems Theory
+		x-definition:
+			Emergence occurs when a system gains a new property or behavior that didn't exist in any of its parts. These emergent properties or behaviors exist due to the structure of the system itself. In this way, we can say that emergence comes from the {relationships between parts}(em), not the parts themselves.
+
 +++

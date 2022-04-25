@@ -722,7 +722,7 @@ content-preview published-date {
 }
 
 x-article-header {
-	--font-color: var(--bg);
+	--font-color: var(--bg0);
 	color: var(--font-color);
 	display: block;
 	margin-right: 8pt;

@@ -19,8 +19,8 @@ Home
 page.content:sam->html
 +++
 x-article-header:
-	x-title: jakintosh.com
-	x-date: April 7th, 2022: {The Superorganism}(a|href="coalescence/the-superorganism.html")
+	x-title: cc://jakintosh.com
+	x-date: April 25th, 2022: {Emergence}(a|href="coalescence/understanding-emergence.html")
 
 section:(id="welcome") Welcome
 	
@@ -65,8 +65,9 @@ section:(id="copyleft") "{©}(span|class="copyleft") ∞ Human Kind"
 section:(id="changelog") Change Log
 
 	x-change:
-		x-date: April 7, 2022
-		p: Published "The Superorganism" post
+		x-date: April 25, 2022
+		p: Published "Understanding Emergence" post
+		p: Large scale site revamp—simplified the structure and evolved the design
 
 	x-change:
 		x-date: March 15, 2022

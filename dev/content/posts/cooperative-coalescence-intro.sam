@@ -3,7 +3,7 @@ type::post
 post.metadata:json
 +++
 {
-	"content_name": "cooperative-coalescence-intro",
+	"content_name": "Cooperative Coalescence: An Introduction",
 	"directory" : "coalescence",
 	"author_name": "jak",
 	"published_date": "2022-03-13",
@@ -14,7 +14,8 @@ post.metadata:json
 post:json
 +++
 {
-	"title": "Cooperative Coalescence: An Introduction"
+	"title": "Cooperative Coalescence: An Introduction",
+	"slug": "cooperative-coalescence-intro"
 }
 +++
 

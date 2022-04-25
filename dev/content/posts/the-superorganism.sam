@@ -3,10 +3,10 @@ type::post
 post.metadata:json
 +++
 {
-	"content_name": "the-superorganism",
+	"content_name": "The Superorganism",
 	"directory" : "coalescence",
 	"author_name": "jak",
-	"published_date": "2022-04-07",
+	"published_date": "20XX-XX-XX",
 	"version": 1
 }
 +++
@@ -14,7 +14,8 @@ post.metadata:json
 post:json
 +++
 {
-	"title": "The Superorganism"
+	"title": "The Superorganism",
+	"slug": "the-superorganism"
 }
 +++
 
@@ -22,23 +23,28 @@ post.content:sam->html
 +++
 section: The Plan
 
-	This article contains a lot of information, even though it's not particularly long. So before we get into it, I think we should first talk about what we're about to cover.
+	This article contains a lot of big ideas, even though it's not particularly long. So before we get into it, I think we should first talk about what we're about to cover.
 
-	In this article, we'll be reasoning about a core building block of a philosophical system called {Cooperative Coalescence}(em). This building block is about the nature of life and how a human being fits into "everything else". Because we're dealing with something so foundational, it may seem too abstract to be worth talking about. However, it's important to "start at the beginning"; {I believe that most of the problems we face today stem from the fact that so many things have not been thought through from their foundations.}(strong) Once we have built a strong foundation, we can then get to the more interesting work of applying the system to analyzing the world, though we don't get that far in this post.
+	x-subsection: Start at the Beginning
 
-	The two existential questions that we will be exploring in this article are:
+		In this article, we'll be reasoning about a core building block of a philosophical system called {Cooperative Coalescence}(em). This building block is about the nature of life and how a human being fits into "everything else". Because we're dealing with something so foundational, it may seem too abstract to be worth talking about. However, it's important to "start at the beginning"; {I believe that most of the problems we face today stem from the fact that so many things have not been thought through from their foundations.}(strong) Once we have built a strong foundation, we can then get to the more interesting work of applying the system to analyzing the world, though we don't get that far in this post.
 
-	1. What does it mean to be alive?
-	2. Are humans special among living things?
+	x-subsection: The Main Point
 
-	The answer to these two questions shape every aspect of human society, and yet for many of us, our answers tend to be quite shallow.
+		The two existential questions that we will be exploring in this article are:
 
-	To start this article we will take a look at the "status quo", looking at how our mainstream philosophy ({Competitive Individualism}(em)) answers these questions. We will then take a look at a handful of concepts that might be new to us, and then finally use those concepts to rebuild a new foundation that answers our questions differently.
+		1. What does it mean to be alive?
+		2. Are humans special among living things?
 
-	The concepts introduced in this article may be difficult to buy into right away, because in some ways they diverge from some very deeply rooted assumptions we all have about the world. My hope is that by building these ideas up all the way from the most basic questions, you will have an easier time adjusting to this system and taking it for test drives in your daily life.
+		The answer to these two questions shape every aspect of human society, and yet for many of us, our answers tend to be quite shallow. By spending the time up front to come up with thoughtful answers, we'll be making the rest of our job much easier.
 
-	That's enough prep, let's dive in.
+	x-subsection: Mentally Preparing
 
+		To start this article we will take a look at the "status quo", looking at how our mainstream philosophy ({Competitive Individualism}(em)) answers these questions. We will then take a look at a handful of concepts that might be new to us, and then finally use those concepts to rebuild a new foundation that answers our questions differently.
+
+		The concepts introduced in this article may be difficult to buy into right away, because in some ways they diverge from some very deeply rooted assumptions we all have about the world. My hope is that by building these ideas up all the way from the most basic questions, you will have an easier time adjusting to this system and taking it for test drives in your daily life.
+
+		That's enough prep, let's dive in.
 
 section: The Status Quo
 
@@ -137,7 +143,6 @@ section: New Lenses
 
 		If we try to fit this pattern to the structures of life, we can make it work at a surface level: an organism has organs, which have tissues, and so on. But the organism doesn’t “own” or “control” its organs… in fact, it’s the complete opposite: the systems of organs interacting with each other {create}(em) the organism. This is a complete inversion of hierarchy. Instead of lower levels being created from or controlled by the higher levels, {the lower levels create the higher levels through emergent behavior}(em).
 
-
 section: Paradigm Shift: The Emergence of Life
 
 	x-subsection: The Story of Life: A History of Emergence
@@ -158,7 +163,6 @@ section: Paradigm Shift: The Emergence of Life
 			x-definition:
 
 				A {Holon}(em) is an entity that is both a part and a whole, and a {Holarchy}(em) is a system of connected holons.
-
 
 section: A New Lens: The Emergent Self
 
