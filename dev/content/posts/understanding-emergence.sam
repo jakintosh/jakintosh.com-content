@@ -1,0 +1,62 @@
+type::post
+
+post.metadata:json
++++
+{
+	"content_name": "understanding-emergence",
+	"directory" : "coalescence",
+	"author_name": "jak",
+	"published_date": "2022-04-24",
+	"version": 1
+}
++++
+
+post:json
++++
+{
+	"title": "Understanding Emergence"
+}
++++
+
+post.content:sam->html
++++
+section: The Plan
+	
+	This article introduces a concept from the field of systems theory called {emergence}(em). It's a little bit abstract, so we'll use a thought expermient to help make it easier to visualize.
+
+section: Systems in a Nutshell
+
+	x-subsection: Simple Systems
+
+		Before we discuss {emergence}(em) in systems, we need to first understand what systems are. To put it simply, we can think of a system as some "thing" with inputs, processes, and outputs.
+		
+		A very simple example would be a thermostat: its single input is the current air temperature, its single process is to compare the air temperature to the target temperature, and the single output is hot (or cold) air.
+
+		section:(class="new-concept") System
+			x-field: Systems Theory
+			x-field: Cybernetics
+			x-definition:
+				A system is a way of looking at something that is made up of several distinct parts, and which has inputs, processes, and outputs. Systems can be real tangible things, like an internal combustion engine, or abstract conceptual things, like the mechanics of a video game.
+
+	x-subsection: Systems are Models
+
+		Something that's important to point out immediately is that when we look at things as systems, we are really just drawing a line around some objects or ideas, calling it a "system", and using those imaginary boundaries to help us make better sense of it. {The pieces of a system may be real, but the boundaries are made up.}(strong) Any system can be conceptually "expanded" (or "contracted") just by thinking about it differently.
+		
+		For example, we can expand our thermostat system to include the human who sets the temperature, and how they might be feeling that day. We can also take into account the house's poor insulation that leaks the heated air, and the time of day or the season of the year that affects the outside temperature. We can dig down and look at the mechanics of the heating element, or the circuit board that checks the temperature.
+		
+		The point is that when we talk about "systems", what we're really talking about is a "model" of a system.
+
+		section:(class="new-concept") Systems are Models
+			x-field: Systems Theory
+			x-field: Cybernetics
+			x-definition:
+				Systems are models, yo.
+
+	x-subsection: The Universal System
+
+		hey
+
+section: Part III
+
+	Even more words.
++++
