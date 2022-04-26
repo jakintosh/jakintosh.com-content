@@ -1,21 +1,17 @@
 type::post
 
-post.metadata:json
-+++
-{
-	"content_name": "Understanding Emergence",
-	"directory" : "coalescence",
-	"author_name": "jak",
-	"published_date": "2022-04-24",
-	"version": 1
-}
-+++
-
 post:json
 +++
 {
-	"title": "Understanding Emergence",
-	"slug": "understanding-emergence"
+	"title": "Systems and Emergence",
+	"slug": "systems-and-emergence",
+	"metadata" : {
+		"content_name": "Systems and Emergence",
+		"directory" : "coalescence",
+		"author_name": "jak",
+		"published_date": "2022-04-25",
+		"version": 1
+	}
 }
 +++
 
@@ -41,9 +37,9 @@ section: Systems in a Nutshell
 
 	x-subsection: Systems are Models
 
-		Something that's important to point out immediately is that when we look at things as systems, we are really just drawing a line around some objects or ideas, calling it a "system", and using those imaginary boundaries to help us make better sense of it. {The pieces of a system may be real, but the boundaries are made up.}(strong) Any system can be conceptually "expanded" (or "contracted") just by thinking about it differently.
+		Something that's important to point out immediately is that when we look at something as a system, we are really just drawing an imaginary line around some objects or ideas and calling it a "system" to help us make better sense of it.
 		
-		For example, we can expand our thermostat system to include the human who sets the temperature, and how they might be feeling that day. We can also take into account the house's poor insulation that leaks the heated air, and the time of day or the season of the year that affects the outside temperature. We can dig down and look at the mechanics of the heating element, or the circuit board that checks the temperature.
+		Any system can be conceptually "expanded" (or "contracted") just by thinking about it differently. For example, we can expand our thermostat system to include the human who sets the temperature, and how they might be feeling that day. We can also take into account the house's poor insulation that leaks the heated air, and the time of day or the season of the year that affects the outside temperature. We can dig down and look at the mechanics of the heating element, or the circuit board that checks the temperature.
 		
 		The point is that when we talk about "systems", what we're really talking about is a "model" of a system.
 
@@ -53,7 +49,7 @@ section: Systems in a Nutshell
 			x-definition:
 				A system is not a "real" thing, but a tool for {modeling the relationships}(em) between "real" things. We can look at a single thing (like a river) as a part of many systems (like the water cycle, an ecological habitat, or a component in the local logging economy). The "systems" that we identify are just ways to model the world, and there are an almost endless number of ways to do that.
 				
-				Because systems are models, we can {expand}(strong) or {contract}(strong) the model to include or exclude other components. It is up to us to determine the right level of abstraction when modeling a system.
+				Because systems are models, just slices of the world, we can {expand}(strong) or {contract}(strong) the model to include or exclude other components. It is up to us to determine the right level of abstraction when modeling a system.
 
 	x-subsection: The Universal System
 
@@ -69,38 +65,78 @@ section: Systems in a Nutshell
 
 				{(Non-physical systems—systems of ideas—are rooted in their own base-level Universal System of Mathematics and Logic, which can be tied into the physical Universal System. We will explore this in depth in a later article, but for now we'll stick to tangible physical systems since they're easier to visualize.)}(em)
 
-		Every physical system that we model can be expanded out to be represented within the Universal System, which accurately captures every single (sub-)atomic movement and interaction in the universe. Modeled inside the Universal System, our thermostat example becomes about the vibration of air molecules, the flow of electrons in the circuitry, and the electrical resistance in the heating element.
+		Every physical system that we model can be expanded out to be described in the terms of the Universal System, which is the system that models every single (sub-)atomic movement and interaction in the universe. As an example: modeled at the level of the Universal System, our thermostat example becomes about the vibration of air molecules, the flow of electrons in the circuitry, and the electrical resistance in the heating element.
 
-		From there, we can also say that every physical system can be {connected}(em) to every other physical system through the Universal System. Our "atomic level" thermostat system can be incorporated into seemingly unrelated systems through atomic interactions of their components.
-		
-		However, just because you {can}(em) model a system that encompasses a thermostat in your home as well as the humidity in the Sahara Desert, doesn't mean that those parts of the system have a meaningful effect on each other. Remember, systems aren't "real", just models of relationships that help us make sense of things; we still have to choose the right models.
+		From there, we can also say that every physical system can be {connected}(em) to every other physical system through the Universal System. Our "atomic level" thermostat system can be incorporated into seemingly unrelated systems through atomic interactions of their components. However, just because you {can}(em) connect unrelated things by dropping down to their shared atomic behaviors, doesn't mean that those parts of the system have a meaningful effect on each other. Remember, systems aren't "real", just models of relationships that help us make sense of things; we still have to choose the right models.
 
-		This raises the final question that leads us into the main topic of this post: {Why does a model "lose potency" when we expand it outward to the Universal System?}(em) I argue that the answer has to do with {emergence}(strong).
+		This does, however, raise the final question that leads us out of this systems primer, and into the main topic of this post: {Why does the model of a system "lose relevance" when we expand it out to the Universal System?}(em) I argue that the answer has to do with {emergence}(strong).
 
 section: Emergence
 
+	x-subsection: A Quick Preface
+		
+		In the context of {Cooperative Coalescence}(em), emergence is a foundational concept. Having a strong grasp of what it is—and being able to visualize and reason about it—is extremely important for making sense of the rest of this philosophical system. Emergence is what gives systems life, and, as I'll argue in a later post, is the essence of {life itself}(em). Not to be overly dramatic, but it can change the way you understand the universe and your place in it. It's a simple idea, but it has big implications.
+		
+		So, instead of giving an academic definition of emergence, we'll instead start with a thought experiment. It's a little bit abstract, so you'll have to focus to get value out of it. If you have been passively reading along so far, {this sentence is a wake up call for you to really engage with this thought experiment.}(strong) Follow along in your mind, and actually visualize each part as best as you can.
+
+	x-subsection: Emergent Behavior
+
+		section:(class="thought-experiment") Visualizing Emergent Behavior
+			x-related-concept: Emergent Behavior
+
+			Picture in your mind a bin filled with one hundred smooth metal balls, each the size of a tennis ball or a baseball. Now imagine dropping them onto the floor, one at a time, in the same spot. What happens? The first one bounces a bit and rolls off. The second one does the same, and maybe bumps off the first. After about a dozen there are enough of them collected near the drop point that the next ball falls directly on another, where they both bounce and roll violently, possibly knocking into others nearby like pool balls. This scatters some of the balls further away, and mostly clears the drop zone. This cycle continues until we run out of balls. In the end, all of the balls are on the floor, spread out over a large area.
+			
+			Next, repeat that same mental experiment with metal cubes of the same size. What happens this time? The cubes don’t roll, though they may bounce around a little bit. After dropping a dozen or so cubes, they may start stacking on top of each other, because the tops of the earlier cubes form a flat surface for new cubes to sit on. After another dozen or so, you may get a third level of cubes starting to materialize. In the end, you’ll have a small pile of cubes, taller in the middle and perhaps three or four cubes high, with all of the cubes very close to the starting point.
+			
+			Finally, repeat the mental experiment one more time, but with metal balls that have of dozens of long sharp spikes sticking out of them. The result? Most likely an even taller pile of objects, as the spikes dig into the ground and create a strong stable base, and the spikes of each newly dropped ball get latched into the spikes of the existing pile of balls. Since the spikes increase surface area and encourage "sticking" to each other, they spread even less and stack even higher than the cubes, even though they are spherical like the balls in the original experiment that spread far and didn't stack at all.
+			
+			In each example, we perform the same process (dropping 100 objects in the same spot) but end up with very different outcomes, where the only difference was the shape of an inanimate metal object. The smooth balls created a “thin, slippery” environment, because now there was a layer of rolling balls in a single layer on top of the ground, spread out over a large area. The cubes created a stable, contained structure with a small amount of height. The spikes created a focused and somewhat tall mound that is “sticky”, since other objects moving past or blowing in the wind could easily get stuck in the spikes.
+			
+			The different way these shapes interacted with each other to create new properties is an example of {emergent behavior}(em). Each of the objects are made out of the same material, are roughly the same size, and were brought together in exactly the same way, yet they created very different structures. This property of {emergence}(em) is what differentiates a simple system from a {complex system}(em).
+
+		x-arrow-connector:
+
+		section:(class="new-concept") Emergent Behavior
+			x-field: Cybernetics
+			x-field: Systems Theory
+			x-definition:
+
+				Emergence occurs when a system gains a new property or behavior that didn't exist in any of its parts. These emergent properties or behaviors exist due to the structure of the system itself. In this way, we can say that emergence comes from the {relationships between parts}(em), not the parts themselves.
+
+		The most important part of this thought experiment is seeing how one input variable—the shape of an object—can create wildly different outcomes in that system's output. The metal balls are not "alive", and posess little influence on the world by themselves. But through the relationships of their physical properties, {new behavior emerges from them}(em).
+
+		section:(class="thought-experiment") Visualizing Emergent Behavior II
+			x-related-concept: Emergent Behavior
+
+			Spend some more time visualizing this simple object dropping system: what structures would dropping other shapes create? What might happen if we alternated back and forth between spikes and cubes on each drop, totalling 50 of each? What if instead of alternating, we dropped 50 cubes in a row and then 50 spikes?
+			
+			By playing with some of these ideas, you can start to build up an intuition about how small changes in variables can create very different emergent behaviors.
+		
+	x-subsection: Emergence Creates Complexity
+
+		Another important takeaway is that emergence is the key element of a {complex system}(em). This term—complex system—is widely used, but rarely used correctly. {"Complex" does not mean "complicated".}(strong) Complex means that a system has emergent behavior, while simple systems do not.
+
+		Using our thermostat example of a simple system, we can reason about the complete shape of that system pretty easily. If the system is set to heat, and the air temperature is lower than the target temperature, the thermostat turns on the heating element until the air temperature is above the target temperature, and then it turns it off. This is everything the system can do. There are no aspects of this system where emergence is possible.
+
+		However, our object dropping "system" creates emergent behavior even though you could argue that it is "simpler" on paper. Again, "complex" does not mean "complicated".
+
+		section:(class="new-concept") Complex System
+			x-field: Systems Theory
+			x-field: Cybernetics
+			x-definition:
+				A complex system is a system that exhibits behaviors not found in its components. In other words, a system becomes {complex}(em) once it displays emergent behavior. The presence of emergence within a complex system makes it more difficult to think about abstractly, and is generally best studied in practice, especially since all emergent properties may not be known.
+
+	x-subsection: Directional Complexity
+
+		With this new understanding of emergence, let's revisit our question from earlier: {Why does the model of a system "lose relevance" when we expand it out to the Universal System?}(em)
+		
+		The answer, I would argue, is that it is because we are going {against the direction of emergence}(strong). When we start at the level of a thermostat and work "out" towards the atomic fabric of the universe, we are trying to untangle all of the emergent behaviors that create the thermostat itself. Molecules emerge from atoms, geology emerges from molecules, air temperatures, humans, thermometers... everything emerges from the systems before it.
+		
+		So, instead of seeing our models "losing relevance" as we {expand out to}(em) the Universal System, we can instead see our models "gaining specificity" as they {narrow in from}(em) the Universal System. When we invert our thinking to be from the base (atomic building blocks) up, instead of from the top (our thermometer) down, it's easier to see how systems are connected.
+
+		If this seems a bit "out there", don't worry. A lot of these ideas are here as springboards to future topics, to plant some seeds in the back of your mind. For now, if there's one thing to intentionally sit with from this last section, it would be the idea of "inversion": what if you looked at things from the bottom up, instead of the top down? What if you see the world as emerging from simple atomic properties (like our metal object example) instead of seeing the world as beginning with your sense of self, inside your own mind? {What does that change about how you percieve the world?}(strong)
+
+section: Takeaways
 	
-
-	section:(class="thought-experiment") Visualizing Emergent Behavior
-
-		x-related-concept: Emergent Behavior
-
-		Picture in your mind a bin filled with one hundred smooth metal balls, each the size of a tennis ball or a baseball. Now imagine dropping them onto the floor, one at a time, in the same spot. What happens? They bounce off of each other and slide around the floor; some stay nearby, and others roll for quite some distance. In the end, all of the balls are on the floor, spread out over a large area.
-		
-		Next, repeat that same mental experiment with metal cubes of the same size. What happens this time? The cubes don’t roll, though they may bounce around a little bit. After dropping a dozen or so cubes, they may start stacking on top of each other, because the tops of the earlier cubes form a flat surface for new cubes to sit on. In the end, you’ll have a small pile of cubes, perhaps a few cubes high, and all of the cubes will be very close to the starting point.
-		
-		Finally, repeat the mental experiment one more time, but with metal balls that have of dozens of long sharp spikes sticking out of them. The result? Most likely an even taller pile of objects, as the spikes dig into the ground and create a strong stable base, and the spikes of each newly dropped ball get latched into the spikes of the existing pile of balls. They spread even less and stack even higher than the cubes.
-		
-		In each example, we perform the same process (dropping 100 objects in the same spot) but end up with very different outcomes, where the only difference was the shape of an inanimate metal object. The smooth balls created a “thin, slippery” environment, because now there was a layer of rolling balls in a single layer on top of the ground, spread out over a large area. The cubes created a stable, contained structure with a small amount of height. The spikes created a focused and somewhat tall mound that is “sticky”, since other objects moving past or blowing in the wind could easily get stuck in the spikes.
-		
-		The different way these shapes interacted with each other to create new properties is an example of {emergent behavior}(em). Each of the objects are made out of the same material, are roughly the same size, and were brought together in exactly the same way, yet they created very different structures. This property of {emergence}(em) is what differentiates a simple system from a {complex system}(em).
-
-	x-arrow-connector:
-
-	section:(class="new-concept") Emergent Behavior
-		x-field: Cybernetics
-		x-field: Systems Theory
-		x-definition:
-			Emergence occurs when a system gains a new property or behavior that didn't exist in any of its parts. These emergent properties or behaviors exist due to the structure of the system itself. In this way, we can say that emergence comes from the {relationships between parts}(em), not the parts themselves.
-
+	By this point I may have lost you, and if so that's okay. All of the concepts within the framework are self reinforcing and highly connected, so there will many more opportunities to play with them again if you keep reading. A lot of these examples are specifically chosen
 +++

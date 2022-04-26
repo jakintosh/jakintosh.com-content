@@ -394,7 +394,8 @@ x-subsection {
 	margin-block-end: 3em;
 }
 
-section>*:last-child {
+section>*:last-child,
+x-subsection>*:last-child {
 	margin-block-end: 0;
 }
 
@@ -824,7 +825,7 @@ x-change p {
 x-arrow-connector {
 	display: block;
 	background-color: var(--fg);
-	margin: 2rem auto;
+	margin: 1.5rem auto;
 	width: 2px;
 	height: 60px;
 }

@@ -1,21 +1,17 @@
 type::post
 
-post.metadata:json
-+++
-{
-	"content_name": "The Superorganism",
-	"directory" : "coalescence",
-	"author_name": "jak",
-	"published_date": "20XX-XX-XX",
-	"version": 1
-}
-+++
-
 post:json
 +++
 {
 	"title": "The Superorganism",
-	"slug": "the-superorganism"
+	"slug": "the-superorganism",
+	"metadata" : {
+		"content_name": "The Superorganism",
+		"directory" : "coalescence",
+		"author_name": "jak",
+		"published_date": "20XX-XX-XX",
+		"version": 1
+	}
 }
 +++
 
