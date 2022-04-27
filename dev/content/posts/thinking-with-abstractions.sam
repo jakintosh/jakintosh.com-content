@@ -1,0 +1,98 @@
+type::post
+
+post:json
++++
+{
+	"title": "Thinking with Abstractions",
+	"slug": "thinking-with-abstractions",
+	"metadata": {
+		"content_name": "Thinking with Abstractions",
+		"directory" : "coalescence",
+		"author_name": "jak",
+		"published_date": "2022-04-26",
+		"version": 1
+	}
+}
++++
+
+post.notes:markdown
++++
+Should I be worrying about lenses in here too? I think abstractions are separate and small and applicable to everything. Useful for describing systems, lenses, physics, etc. Maybe lets separate them.
+
+What is an abstraction? Abstraction is when we group things together into a single larger part. There are so many things in the world that it would be impossible to function without abstractions.
+
+important ideas:
+- abstraction is grouping multiple things into a new single thing
+- creating an abstraction cause both information loss and gain
+- abstractions can be layered
+
+the reason abstractions are important is that they are what the brain is built to do. the human sensory system takes in an insane amount of raw information, and then filters out that raw information into "abstracted" version of itself; instead of raw points of light, pressure, and sound waves, it becomes images, object recognition and placement, physical orientation, the sound of someone's voice. a raw sound wave is just pure data, but through processing and abstracting, our brain picks it apart and groups it into parts like "the hum of the refridgerator" or "the sound of your mother's voice". when we think about a "single" object, that is again an act of abstraction. my phone wrapped in a case on my desk becomes a single object, even though I can take the phone out of the case, and then disassmble the phone into a pile of parts, and then break its glass into dust, and so on. we can navigate up and down through abstractions; instead of breaking down the phone on the desk, we could abstract up and see the desk as a single unit, or the office, or the whole apartment, or the city block, the city itself, etc. We can pick and choose the right "level" of the abstraction depending on the circumstance. we can get in a car and navigate the abstraction of it's control, how the wheel maps to direction, and the pedals map to speed, but at the same time we can operate at a higher level of abstraction as an element within the flow of traffic itself. we can use abstractions to break down large goals into smaller pieces: you want to lose weight, so you have to exercise more and also eat less calories, you make a plan to exercise by running 3 times a week, you are actively running by puttin on your shoes and putting one foot in front of the other.
+
+human language is abstraction. we take all of the physical world, all of our human emotions, needs, and desires, and map it all onto a limited set of words.
+
+so, okay, what's the point here? abstraction is when we take a bunch of "things", and wrap them up into a new single object. taking a bunch atoms and calling them a molecule, taking a bunch of buildings and calling them a neighborhood, taking a bunch of people and calling them a family. this is really helpful for simplifying large bits of information within a context.
+
+abstractions can be good when the context provides any lost information, but abstractions can be bad when removed from their original context.
+
+Examples of abstractions:
+ - 
++++
+
+post.content:sam->html
++++
+section: Introduction
+
+	Abstractions are one of the most powerful thinking tools that humans are capable of using. Our ability to create and navigate abstractions is what gave us language, society, art, and science. All of us use abstractions every day, and without them we would be collapsed in a heap on the floor, unable to function. And yet... most people have never had an intentional and focused lesson on what abstractions are.
+	
+	This is that intentional and focused lesson.
+
+	This article is the first in a series about a philosophical framework called {Cooperative Coalescence}(em), which is a new operating system for humans living in a complex world. As I was writing the longer and more essential articles I found that I was repeatedly re-explaining the same concept in many different places, which was this concept of "abstraction".
+	
+	Many parts of this framework are about learning new "thinking tools", but I realized that this concept of abstraction was perhaps the most fundamental of them all. So before we dive into anything more complicated, it would probably be a lot easier for both of us if we just started with this:
+	
+	{"What are abstractions, and why are they so important?"}(strong)
+
+section: Abstractions
+
+	x-subsection: Abstract and Concrete Objects
+
+		Let's start with some simple {Ontology}(em), which is a branch of philosophy concerned with categorizing "objects". There are two main categories of objects—the {Concrete}(em) and the {Abstract}(em). You can think of these two categories as "real" (concrete) and "imaginary" (abstract). Concrete objects are physical things, like the earth, an apartment building, or a computer. Abstract objects are conceptual, like numbers, music, or the concept of an abstract object itself.
+
+		section:(class="new-concept") Abstract Object
+			x-field: Ontology
+			x-field: Philosophy
+			x-definition:
+				An abstract object is a conceptual entity that exists in a non-tangible sense. It is an "idea", existing in the realm of "thought" or "information".
+
+		An important quirk of being human is that—when you really think about it—we can't actually engage with the physical world. We have senses that receive information from our physical environment, but ultimately the brain constructs an abstract representation of the world inside of our mind.
+		
+		And so, in order for us to {think}(em) about a physical object we must create an abstract representation of it in our mind. This creates a distinction between the ground you are standing this on, and the idea of that ground in your mind.
+
+		section:(class="new-concept") Concrete Object
+			x-field: Ontology
+			x-field: Philosophy
+			x-definition:
+				A concrete object is a physical entity that is created out of matter. It exists in "the real world", and is distinct and separate from the {idea}(em) of that object: "The word is not the thing", "The map is not the territory", {"This is not a pipe"}(a|href="https://en.wikipedia.org/wiki/The_Treachery_of_Images").
+
+		Another way of thinking about it is this: to bring a concrete object into our mind, we must wrap it in an abstract object. {We must abstract it.}(strong) All of this together means that, within the mind, every object is abstract.
+
+	x-subsection: Composing Abstract Objects
+		
+		With this basic understanding of concrete and abstract objects
+
+		---
+
+		Let's start with an extremely simple definition: an abstraction is when we take a "thing" or "group of things", and wrap them in a new conceptual container. The "things" can be objects, but they can also be ideas. We are creating an abstraction when we call a group of bonded atoms a "molecule", or call a deep and complex human an "employee".
+		
+		We can even create abstractions from abstractions—collections of molecules become abstracted into all kinds of physical objects, and many employees can be abstracted into a company (or a union). In other words, abstraction is the act of "composition": assembling a new thing from other parts.
+
+		section:(class="new-concept") Abstraction
+			x-field: Ontology
+			x-field: Philosophy
+			x-definition:
+				When we group (or reframe) one or more objects or concepts into a new single concept, the result is an abstraction. Abstractions are how we condense and compose information into simpler and more manageable concepts.
+
+	x-subsection: Layers of Context
+
+		Body text
++++
