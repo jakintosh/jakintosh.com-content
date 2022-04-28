@@ -845,7 +845,7 @@ x-arrow-connector::after {
 	display: block;
 	border: 12px solid transparent;
 	border-top: 12px solid var(--fg);
-	transform: translateX(-11px) translateY(48px);
+	transform: translateX(-11px) translateY(48px) scaleX(0.66);
 }
 
 
