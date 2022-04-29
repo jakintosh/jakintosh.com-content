@@ -218,17 +218,24 @@ ol {
 	line-height: 170%;
 
 	margin: 0;
-	padding-left: 2em;
+	padding-left: 0em;
 
 	counter-reset: number;
 }
 
 ol>li {
+	list-style: none;
+
 	position: relative;
 	margin-bottom: 0.75em;
 	padding: 0.75em;
+	padding-left: 2.75em;
 
 	background-color: var(--bg0);
+
+	border: var(--fg) solid 1pt;
+
+	box-shadow: var(--fg) 2pt 2pt 0;
 
 	counter-increment: number;
 }
@@ -244,7 +251,7 @@ ol>li::before {
 
 	height: calc(100% - 0.75em);
 	width: 2em;
-	left: -2em;
+	left: 0em;
 	top: 0em;
 	padding-top: 0.75em;
 
