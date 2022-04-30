@@ -410,7 +410,8 @@ section.status-quo,
 section.new-concept,
 section.thought-experiment,
 section.site-sections,
-section.recent-posts {
+section.recent-posts,
+section.recap {
 	display: block;
 	padding: calc(1.5 * var(--article-padding));
 	margin: 1.33rem 0;
@@ -419,7 +420,8 @@ section.recent-posts {
 
 section.status-quo,
 section.site-sections,
-section.recent-posts {
+section.recent-posts,
+section.recap {
 	border: 1px solid var(--fg);
 	box-shadow: var(--fg2) 4pt 4pt 0;
 	margin-right: 4pt;
@@ -491,6 +493,10 @@ section.site-sections>x-section-title::before {
 
 section.recent-posts>x-section-title::before {
 	content: "■ Content Group";
+}
+
+section.recap>x-section-title::before {
+	content: "■ Recap";
 }
 
 x-field {
