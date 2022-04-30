@@ -9,7 +9,7 @@ post:json
 		"content_name": "Objects and Abstractions",
 		"directory" : "coalescence",
 		"author_name": "jak",
-		"published_date": "2022-04-29",
+		"published_date": "2022-05-01",
 		"version": 1
 	}
 }
@@ -36,56 +36,98 @@ abstractions can be good when the context provides any lost information, but abs
 
 Examples of abstractions:
  - 
+
+========
+
+i don't think it's clear what an object is, or why it's important
+
 +++
 
 post.content:sam->html
 +++
 section: Introduction
 
-	Abstractions are one of the most powerful thinking tools that humans are capable of using. Our ability to create and navigate abstractions is what gave us language, society, art, and science. All of us use abstractions every day, and without them we would be collapsed in a heap on the floor, unable to function. And yet... most people have never had an intentional and focused lesson on what abstractions are.
+	Abstractions are one of the foundations of human thinking, and one of our most powerful logic tools. Our ability to create and navigate abstractions is what gave humans language, society, art, and science. All of us use abstractions every day, and without them we would be collapsed in a heap on the floor, unable to function. And yet... most people have never had an intentional and focused lesson on what abstractions are.
 	
-	This is that intentional and focused lesson.
+	{This is that intentional and focused lesson.}(strong)
 
-	This article is the first in a series about a philosophical framework called {Cooperative Coalescence}(em), which is a new operating system for humans living in a complex world. As I was writing the longer and more essential articles, I found that I was repeatedly re-explaining this concept of "abstraction" in many different places.
+	This article is the first in a series about a philosophical framework called {Cooperative Coalescence}(em), which is a new cultural operating system for humans living in a complex world. As I was writing the longer and more essential articles, I found that I was repeatedly re-explaining this concept of {abstraction}(em) in many different places.
 	
-	The majority of the components of this framework are about learning new "thinking tools", but I realized that this concept of abstraction was perhaps the most fundamental of them all. So before we dive into anything more complicated, it would probably be a lot easier for both of us if we just started with this:
+	The majority of the foundational components of {Cooperative Coalescence}(em) are new "thinking tools", but I realized that the concept of abstraction was perhaps the most fundamental of them all. So before we walk through this entire philosophical framework, let's first start with a quick primer on one of the core components of philosophy itself: the nature of thought, "objects", and abstractions.
+
+
+section: Objects and the Mind
+
+	And so we start with the question: {"What are abstractions, and why are they so important?"}(strong)
+
+	Abstractions are a special kind of "idea". There's no easy way to explain what abstractions are without first explaining what "ideas" are (abstract philosophical objects) and where they come from (the mind). However, once we understand objects and the mind, the nature of abstractions will be self explanitory.
 	
-	{"What are abstractions, and why are they so important?"}(strong)
+	x-subsection: Consciousness of The Mind
 
-section: Objects
+		So what is "thinking" in the first place?
 
-	Abstraction is a "thinking tool", which means it exists in the realm of thought inside our head. But what are thoughts made out of? How do we talk about thoughts? To make sure we're all on the same page, we need to first establish a {shared vocabulary}(em). So first, we'll start with some basic concepts of {Ontology}(em), which is a branch of philosophy concerned with categorizing "objects".
+		We can broadly categorize the activity of our brain into two categories: the subconscious and the conscious. The subconscious activity is the background processes: it is our sensory functions, our motor skills, the rhythm of our breath. The conscious activity is our "intentional thought": it is our inner monologue, our decision making, our day dreams... our "consciousness".
+		
+		To better seperate these two categories, we can think of the automatic and subconscious brain activity as a part of our {body}(em), and we can think of our intentional and conscious thoughts as our {mind}(em).
 
-	section:(class="new-concept") Object
-		x-field: Ontology
-		x-field: Philosophy
-		x-definition:
-			An object is "some thing". Ideas, places, numbers, people, feelings, and God are all philosophical objects. By definition, it is impossible for something to not be an object, because it is "some thing". The only thing that is not an object is nothing—but not the {concept}(em) of nothing, because that concept is something.
-	
-	There are two main categories of objects—the {Concrete}(em) and the {Abstract}(em). You can think of these two categories as "tangible" (concrete) and "imaginary" (abstract). Concrete objects are physical things, like the earth, a baseball bat, or a tree. Abstract objects are conceptual, like a song, the rules of Chess, or the memory of your 5th birthday. The "concept of abstract objects" an abstract object. (The "concept of {concrete objects}(em)" is even an abstract object!)
+		section:(class="new-concept") The Mind
+			x-field: Philosophy
+			x-definition:
+				The active, intentional thoughts we have inside our brain is our mind. The mind is generally the center of our "self"; it is the perspective we are seeing from, thinking from. It is the voice inside our head, the thing that wonders what to eat for breakfast, what pants to wear, and what career to pursue.
+				
+				The mind is where thinking takes place.
+		
+		{(From now on, when we say "thinking" we'll be referring to the intentional thoughts that we have in our mind, and any discussion of the subconscious brain activity will fall under Biology and Cognitive Psychology.)}(em)
 
-	section:(class="new-concept") Abstract Object
-		x-field: Ontology
-		x-field: Philosophy
-		x-definition:
-			An abstract object is a conceptual entity that does not physically exist. It is an "idea", existing in the realm of "thought" or "information".
+	x-subsection: Abstract Objects
 
-	An interesting quirk of being human is that—when you really think about it—we can't actually directly engage with the physical world. We have senses that receive information from our physical environment, but ultimately our brains create an abstract version of the world inside of our mind.
-	
-	And so, in order for us to {think}(em) about a physical object, in order for us to interact with it all, we must create an abstract representation of it in our mind. This means that there is an important difference between the actual ground you are standing this on, and the idea of that ground in your mind.
+		So we've narrowed down "thinking" as what happens in the conscious mind, but how does the mind actually {work}(em)? We'll get to the "physics" of it in a later article, but for now: how does the mind work {conceptually}(em)? What are thoughts?
+		
+		Inside our mind, we create {abstract objects}(em) that represent every thing that is representable. These abstract objects are like conceptual boxes that can represent physcial {things}(em) or non-physcial {ideas}(em). For example: in our mind, we can have abstract objects that represents our body, our cell phone, or our home. We can also have abstract objects that represent our mood, the number three, or our political leanings.
 
-	section:(class="new-concept") Concrete Object
-		x-field: Ontology
-		x-field: Philosophy
-		x-definition:
-			A concrete object is a physical entity that is created out of matter. It exists in "the real world", and is distinct and separate from the {idea}(em) of that object. For example: "The word is not the thing", "The map is not the territory", {"This is not a pipe"}(a|href="https://en.wikipedia.org/wiki/The_Treachery_of_Images").
+		section:(class="new-concept") Abstract Object
+			x-field: Ontology
+			x-field: Philosophy
+			x-definition:
+				An abstract object is an "idea". While we as humans mostly interact with abstract objects in our minds, these objects exist independently of human thought: the concept of "the number zero" still exists even if nobody is currently thinking about it.
+		
+		Every "thing" in our mind is an abstract object (which we will now simply refer to as an "object"). Even when an object represents a physical thing—like a desk—the {idea}(em) of the desk in your mind is still abstract. {The idea of a physical thing is separate from the physical thing itself.}(strong)(a|href="https://en.wikipedia.org/wiki/The_Treachery_of_Images")
 
-	Another way of thinking about it is this: to bring a concrete object into our mind, we must {wrap it}(em) in an abstract object. {We must abstract it.}(strong) The main takeaway is that, within the mind, every object is abstract.
+		aside: Traditionally, philosophers also call "physical things" objects, but {concrete}(em) objects instead of the {abstract}(em) ones we are discussing here. I disagree with this, and we'll get into why I disagree in a later article. Besides, I think it's cleaner and easier to only consider abstract objects and how they relate to "thought".
+		
+		Now, the mind is more than just a sea of objects floating through the void: every object also has connections to other objects. These connections can look like the "pizza" and "ramen" objects both pointing to a "(delicious) food" object, or a specific song's object pointing to its arist's object in addition to a collection of objects representing memories where that song was played.
+		
+		What we end up with is something that resembles the World Wide Web: a bunch of objects that have "links" to other objects (that have more links to other objects, and so on).
+
+	x-subsection: The Nature of Thought
+
+		And so we ask again: what is a thought? {A thought is the process of following the "links" between objects in your mind.}(strong)
+		
+		aside: We see this truth reveal itself in language like "train of thought". When we "lose our train of thought", we usually regain it by trying to remember the most recent object we can, and then following the same links between objects in our mind.
+		
+		This form of thinking, called {Associative Thinking}(b), is the most common and is also the foundation for all types of thought.
+
+		section:(class="new-concept") Thought
+			x-field: Philosophy
+			x-definition:
+				A "thought" is the process of creating a string of connected objects in your mind. Thoughts can have many sizes and shapes, but the common thread between all of them is that in order to think, we must {follow links between objects}(em).
+
+		Sometimes the intention behind a thought is to reach the final object—in this case the thought is a "search". Other times the goal is to create the complete string of objects itself–this would be a "synthesis of ideas", common when learning or creating new knowledge (which are arguably the same thing).
+		
+		Using these building blocks of {associative thinking}(em), we can perform more complex types of thinking like {Pattern Recognition}(b). In this form of thinking we still follow links between objects, but we are also matching the objects we encounter against certain patterns. This lets us filter or synthesize information in more complex ways.
+
+		To help reinforce these concepts, let's look at some example thought processes.
+
+		section:(class="thought-experiment") Thinking About Thinking
+			x-related-concept: Abstract Objects
+		
+			Here are some cool examples :)
+
 
 section: Abstraction
-	
+
 	We've already seen our first example of abstraction, which is when we wrap a concrete object in an abstract object in order to "use" that object in our thoughts. {This is the essence of abstraction: creating a new abstract object that is a conceptual container for other objects.}(strong)
-	
+
 	However, in addition to putting concrete objects in these containers, we can put abstract objects in there as well. And since we've already determined that every object in our mind is abstract... you can see the power here.
 
 	Let's take a look at an example.
