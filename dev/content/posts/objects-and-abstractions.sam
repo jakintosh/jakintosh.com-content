@@ -56,48 +56,50 @@ section: Introduction
 	The majority of the foundational components of {Cooperative Coalescence}(em) are new "thinking tools", but I realized that the concept of abstraction was perhaps the most fundamental of them all. So before we walk through this entire philosophical framework, let's first start with a quick primer on one of the core components of philosophy itself: the nature of thought, "objects", and abstractions.
 
 
-section: Objects and the Mind
+section: Objects in the Mind
 
-	And so we start with the question: {"What are abstractions, and why are they so important?"}(strong)
+	And so you ask: {"What are abstractions, and why are they so important?"}(em)
 
-	Abstractions are a special kind of "idea". There's no easy way to explain what abstractions are without first explaining what "ideas" are (abstract philosophical objects) and where they come from (the mind). However, once we understand objects and the mind, the nature of abstractions will be self explanitory.
+	Abstractions are a special kind of "idea". Beyond that, the best way to explain what abstractions are is to first explain what "ideas" are, and what "thinking" is. Once we define objects and the mind, the concept of abstraction will be almost self explanatory.
 	
-	x-subsection: Consciousness of The Mind
-
-		So what is "thinking" in the first place?
-
-		We can broadly categorize the activity of our brain into two categories: the subconscious and the conscious. The subconscious activity is the background processes: it is our sensory functions, our motor skills, the rhythm of our breath. The conscious activity is our "intentional thought": it is our inner monologue, our decision making, our day dreams... our "consciousness".
-		
-		To better seperate these two categories, we can think of the automatic and subconscious brain activity as a part of our {body}(em), and we can think of our intentional and conscious thoughts as our {mind}(em).
-
-		section:(class="new-concept") The Mind
-			x-field: Philosophy
-			x-definition:
-				The active, intentional thoughts we have inside our brain is our mind. The mind is generally the center of our "self"; it is the perspective we are seeing from, thinking from. It is the voice inside our head, the thing that wonders what to eat for breakfast, what pants to wear, and what career to pursue.
-				
-				The mind is where thinking takes place.
-		
-		{(From now on, when we say "thinking" we'll be referring to the intentional thoughts that we have in our mind, and any discussion of the subconscious brain activity will fall under Biology and Cognitive Psychology.)}(em)
-
 	x-subsection: Abstract Objects
 
-		So we've narrowed down "thinking" as what happens in the conscious mind, but how does the mind actually {work}(em)? We'll get to the "physics" of it in a later article, but for now: how does the mind work {conceptually}(em)? What are thoughts?
+		{"Okay, so what are 'ideas'?"}(em)
 		
-		Inside our mind, we create {abstract objects}(em) that represent every thing that is representable. These abstract objects are like conceptual boxes that can represent physcial {things}(em) or non-physcial {ideas}(em). For example: in our mind, we can have abstract objects that represents our body, our cell phone, or our home. We can also have abstract objects that represent our mood, the number three, or our political leanings.
+		"Ideas" are conceptual things: they are the things that don't physically exist. "Ideas" are not made out of atoms, and they are not something we can touch. An "idea" can exist inside our mind, but also outside of our mind: for example, the concept of {the number three}(em) still exists even if we're not thinking about it. We can even communicate an "idea" to another person without transferring any physical matter. The traditional philosophical term for what we've been describing as an "idea" is an {Abstract Object}(b).
 
 		section:(class="new-concept") Abstract Object
 			x-field: Ontology
 			x-field: Philosophy
 			x-definition:
-				An abstract object is an "idea". While we as humans mostly interact with abstract objects in our minds, these objects exist independently of human thought: the concept of "the number zero" still exists even if nobody is currently thinking about it.
+				Abstract objects are the non-physical things of the universe. They are the inverse of things that are physical and made out of matter, called {Concrete Objects}(b).
+				
+				Information, knowledge, concepts, and mathematics are all made up of abstract objects. A person's name, the game of Basketball, the freezing point of water, and the mental representation of "your smartphone" are all abstract objects, while a human body, a basketball, an ice cube, and your smartphone itself are all concrete objects.
+		
+		While concrete objects make up the entirety of the physical universe, {abstract objects are what create meaning and structure in the universe.}(strong) It should become more apparent {why}(em) this is the case as we go, so let's move on for now.
+
+	x-subsection: The Conscious Mind
+
+		{"And what is 'thinking'?"}(em)
+
+		I think we can agree that thinking happens inside the brain. We can broadly categorize the activity of our brain into two categories: the subconscious and the conscious. The {Subconscious}(b) is our background processes: it is our sensory functions, our motor skills, the rhythm of our breath. The {Conscious}(b) is our "intentional thought": it is our inner monologue, decision making, and daydreams... our "consciousness".
+		
+		From a biological perspective, there's no real need to separate these two components, since they both interact with and depend on each other. But from a philosophical perspective, we can draw a line around that "consciousness" and give it a new name: {The Mind}(b).
+		
+		section:(class="new-concept") The Mind
+			x-field: Philosophy
+			x-definition:
+				The active, intentional thoughts we have inside our brain is our mind. The mind is generally the center of our "self"; it is the perspective we are seeing from and thinking from. It is the voice inside our head, the thing that wonders what to eat for breakfast, what pants to wear, and what career to pursue.
+				
+				The mind is where thinking takes place.
+		
+		Our mind is a machine that is built to process abstract objects. Inside our mind, we create abstract objects that represent every {thing}(em) that is representable. We use these abstract objects as mental boxes that can represent physcial {things}(em) or non-physcial {concepts}(em).
 		
 		Every "thing" in our mind is an abstract object (which we will now simply refer to as an "object"). Even when an object represents a physical thing—like a desk—the {idea}(em) of the desk in your mind is still abstract. {The idea of a physical thing is separate from the physical thing itself.}(strong)(a|href="https://en.wikipedia.org/wiki/The_Treachery_of_Images")
 
-		aside: Traditionally, philosophers also call "physical things" objects, but {concrete}(em) objects instead of the {abstract}(em) ones we are discussing here. I disagree with this, and we'll get into why I disagree in a later article. Besides, I think it's cleaner and easier to only consider abstract objects and how they relate to "thought".
+		Now, the mind is more than just a sea of objects floating through the void: these objects also have relationships to other objects. These connections can look like the "pizza" and "ramen" objects both pointing to a "food" object, or a specific song's object pointing to its arist's object in addition to a collection of objects representing memories where that song was played.
 		
-		Now, the mind is more than just a sea of objects floating through the void: every object also has connections to other objects. These connections can look like the "pizza" and "ramen" objects both pointing to a "(delicious) food" object, or a specific song's object pointing to its arist's object in addition to a collection of objects representing memories where that song was played.
-		
-		What we end up with is something that resembles the World Wide Web: a bunch of objects that have "links" to other objects (that have more links to other objects, and so on).
+		These relationships between objects are like "links" on a webpage. What we end up with is something that resembles the World Wide Web: a bunch of objects in our mind that have "links" to other objects, that have more links to other objects, creating an endless web of associated objects.
 
 	x-subsection: The Nature of Thought
 
