@@ -1,0 +1,115 @@
+type::post
+
+post:json
++++
+{
+	"title": "Philosophy and Objects",
+	"slug": "objects",
+	"metadata": {
+		"content_name": "Objects",
+		"directory": "coalescence",
+		"author_name": "jak",
+		"published_date": "2022-05-04",
+		"version": 1
+	}
+}
++++
+
+post.content:sam->html
++++
+section: Introduction
+
+	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em). As our first step, we will define what we mean by {Philosophy}(b) in the first place. We will then define a foundational component of the framework, which is the {Object}(b). Finally, we will spend a little time expanding on the concept of the Object to uncover our first (and most important) thinking tool called the {Abstraction}(b), which we will use extensively throughout the rest of the framework.
+
+	I hope this doesn't sound like it's going to be dry and academic, but to some degree we have to get a little "out there" when building the foundation of a philosophical system. I believe that a lot of conflict in the world comes from the fact that the current foundational ideas of our society don't mesh together, which causes frustration and disconnect ({cognitive dissonance}(em)) in our minds.
+	
+	So think about it another way: doesn't it sound cool to try to define and categorize the nature of existence? Yeah? Then let's get into it.
+
+section: Philosophy 101
+
+	x-subsection: Philosophy in 60 Seconds
+
+		So, {Cooperative Coalescence}(em) is a philosophical system. But what actually is philosophy, and why is it important?
+		
+		Philosophy is the study of "fundamental questions". There are many branches of philosophy, with some of the most important being: {Epistemology}(b), the study of knowledge; {Logic}(b), the study of reason; and {Metaphysics}(b), the study of {reality}(em). To lay the groundwork for {Cooperative Coalescence}(em), we will start with a metaphysical lens in the next section.
+		
+		section:(class="new-concept") Metaphysics
+			x-field: Philosophy
+			x-definition:
+				Metaphysics is the study of the fundamental questions of existence, matter, reality, and consciousness. Metaphysics is concerned with answering the question {"What are the things that exist?"}(em) as well as categorizing those "things".
+
+		What makes philosophy so important is that it is the foundation for every other branch of human thinking. Philosophy sits underneath Politics, Religion, and Governance. The true power of a well designed philosophyical system is that it can provide a strong and stable base for human society. In other words, philosophy is how we can "scientifically" create a consistent and well reasoned worldview.
+
+		The most important takeaway is this: the way a society answers the fundamental questions of philosophy dictates {everything}(em) about how that society is structured. {Every aspect of your life is shaped by the socially dominant philosophical framework.}(strong) You should understand what that framework is, and how to judge its quality.
+
+	x-subsection: Axioms
+
+		At the base of any argument is an {Axiom}(b): an idea that can't be reduced any further, and that we have to {assume to be true}(em). We can think of axioms as "assumptions". Assumptions in general are dangerous, and we should try to have as few of them as possible, and keep them as simple and as reasonable as we can.
+		
+		section:(class="new-concept") Axiom
+			x-field: Logic
+			x-definition:
+				An axiom is a non-reducible idea that we take to be a truth; it is a foundation of an argument. Axioms should be simple and reasonable, and there should be no more than the absolute minimum needed to make our argument.
+
+		Poorly designed arguments have very "unstable" axioms that leave a lot of room for error.
+		
+		Here's an example of a poor axiom: within the dominant philosophical framework {Competitive Individualism}(em), there is an axiom, an {assumption}(em), that human beings have elevated importance over other living and non-living things. But why? There are various different explanations for it, but most of them boil down to "because it {feels}(em) true". (We will dig much deeper into this example in a later chapter.)
+		
+		This is a lazy and dangerous way to craft the foundational arguments of human society. If it's true, then let's prove it! And if it's not true, then we ought to figure out what that means for us. {We can't be afraid of seeking out potentially scary truths.}(strong)
+
+		{Cooperative Coalescence}(em) attempts to dig deep and find simpler and more reasonable axioms that don't require a large leap of faith. Instead of trying to make high level arguments that must be unquestionable, we will instead craft a solid metaphysical base and build our framework from there. This work can be a little challenging, but if we don't do it this way, we'd just be lying to ourselves.
+
+section: Matter and Objects
+
+	x-subsection: Metaphysics of Coalescence
+
+		Let us begin by defining our {Metaphysics}(b). As we said before, {metaphysics}(em) is concerned with answering the question of {"What exists?"}(strong)
+		
+		So, uh, {what exists?}(em)
+		
+		Most traditional metaphysics have two base categories of objects that exist: the {Concrete}(b) objects and the {Abstract}(b) objects. The concrete objects are physical objects, while the abstract objects are "ideas" or "concepts". We can agree that a physical desk "exists", and that the concept of the number three also "exists", and that the nature of these two objects are different, yes?
+
+		section:(class="status-quo") Abstract and Concrete Objects
+			x-field: Ontology
+			x-field: Metaphysics
+			x-definition:
+				Concrete objects are "things" made out of matter, while abstract objects are "things" that are not made out of matter. Ideas, concepts, information, and knowledge all exist in the realm of the abstract.
+
+		This is a pretty good starting point. However, I don't think this differentiation is specific enough, and I think we should push further. Over the last hundred years, we have drastically expanded the boundaries of atomic and sub-atomic scientific knowledge. We have a much more vivid understanding of the "essence of matter" now than we used to, and we should use that knowledge to inform our definitions.
+		
+		So we ask: {Knowing that everything is made up of atomic particles that exert forces on other atomic particles, how do we draw the line between one physical object and another? Is there a meaningful scientific way to differentiate between the loose atomic bonds of the air around a desk and the desk itself? And what separates a droplet of water from the pond once it falls in?}(em)
+		
+		To those questions, we respond: {There is no physical basis for separation between concrete objects.}(strong) What separates physcial matter into different concrete objects are the "ideas" of the separate things themselves. From a physical perspective, the desk and the air around it are just atoms attracting and repelling each other to differing degrees. The thing that makes them separate is the {idea}(em) of "Air" and "A Desk", which allows them to be separated.
+
+		And so, we claim: The only things that exist are the elementary particles that make up atoms which, we'll call {Matter}(b), and non-physical "concepts", which we'll call {Objects}(b). Matter creates the physical basis of the universe, while Objects give it structure and meaning.
+
+		section:(class="new-concept") Matter and Objects
+			x-field: Cooperative Coalescence
+			x-field: Metaphysics
+			x-definition:
+				Matter and Objects are the two base categories of "things that exist". Matter is the particles that make up the physical aspect of the universe, and Objects are the non-tangible concepts that give structure and meaning to the universe.
+				
+				The two categories are also co-dependent: without objects, matter could not exist as anything but raw particles, and without matter, objects would have nothing to describe. Neither can exist without the other.
+	
+		The scientific field of Physics studies matter in extensive detail. We know an incredible amount about the properties of physical matter, down to the composition and behavior of an atom, and even beyond that into the realm of Quantum Physics. Matter is "easy" to study, since it is physical and can be observed and described in unambiguous mathematical notation.
+		
+		This gives a certain elegance to the clean break between categories in our metaphysics: one half of the metaphysics—matter—is synonymous with the robust field of physics, leaving us to focus exclusively on defining the other half—objects.
+
+	x-subsection: The Nature of an Object
+
+		Objects are "concepts" or "ideas". The number three is an object, the game of Baseball is an object, the concept of objects themselves is an object. The {concept}(em) of your phone sitting on the table is also an object that is separate from the matter that makes up your actual phone that is sitting on the table.
+
+		As thinking human beings, we spend a lot of time with objects inside our mind. Does this mean that objects are products of our minds? Well, no. Even before humans had the capacity to think, we can agree that "the concept of the number three" still existed. And in millions of years, if humanity has faded away, "the concept of the game of Baseball" would still exist, even if nobody had thought about it for eons, and will never think of it again.
+
+		So what is the nature of objects? They appear to exist outside of time, and instead of being created by humans they seem to be "discovered". We can hold objects in our mind, but we can also convert them into information and send them to the minds of others through {communication}(em). 
+
+		Is it possible to simplify this definition any further? Should we even try? I don't think it matters much. This understanding that objects are concepts, non-physical things that "exist" regardless of whether they are discovered, is enough. Objects are the "matter" of ideas. We can take this as an axiom.
+
+section: Abstractions
+
+	damn
+
+section: What We've Learned
+
+	yo
++++
