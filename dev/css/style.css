@@ -465,6 +465,7 @@ section>x-section-title {
 }
 
 section>x-section-title::before,
+x-axiom::before,
 x-concept::before,
 aside::before {
 	display: block;
@@ -564,7 +565,8 @@ section.proof {
 	margin-right: auto;
 }
 
-x-concept {
+x-concept,
+x-axiom {
 	display: block;
 	padding: 0.25em 0.5em;
 	background-color: var(--bg0);
@@ -582,6 +584,10 @@ x-then {
 	padding-left: 1em;
 	margin: 1em 0;
 	border-left: var(--fg) solid 1pt;
+}
+
+x-axiom::before {
+	content: "■ axiom";
 }
 
 x-concept::before {
@@ -644,7 +650,8 @@ x-then::after {
 	border-bottom: var(--fg) solid 1pt;
 }
 
-section.proof section.status-quo {
+section.proof section.status-quo,
+section.proof section.new-concept {
 	margin: 0;
 	margin-bottom: 4pt;
 }

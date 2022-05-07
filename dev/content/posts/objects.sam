@@ -3,10 +3,10 @@ type::post
 post:json
 +++
 {
-	"title": "Philosophy and Objects",
-	"slug": "objects",
+	"title": "Philosophy and Concepts",
+	"slug": "philosophy-and-concepts",
 	"metadata": {
-		"content_name": "Objects",
+		"content_name": "Philosophy and Concepts",
 		"directory": "coalescence",
 		"author_name": "jak",
 		"published_date": "2022-05-04",
@@ -19,7 +19,7 @@ post.content:sam->html
 +++
 section: Introduction
 
-	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em). As our first step, we will define what we mean by {Philosophy}(b) in the first place. We will then define a foundational component of the framework, which is the {Object}(b). Finally, we will spend a little time expanding on the concept of the Object to uncover our first (and most important) thinking tool called the {Abstraction}(b), which we will use extensively throughout the rest of the framework.
+	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em). As our first step, we will define what we mean by {Philosophy}(b) in the first place. We will then define a foundational component of the framework, which is the {Concept}(b). Finally, we will spend a little time expanding on the concept of the Concept to uncover our first (and most important) thinking tool called the {Abstraction}(b), which we will use extensively throughout the rest of the framework.
 
 	I hope this doesn't sound like it's going to be dry and academic, but to some degree we have to get a little "out there" when building the foundation of a philosophical system. I believe that a lot of conflict in the world comes from the fact that the current foundational ideas of our society don't mesh together, which causes frustration and disconnect ({cognitive dissonance}(em)) in our minds.
 	
@@ -59,15 +59,15 @@ section: Philosophy 101
 
 		{Cooperative Coalescence}(em) attempts to dig deep and find simpler and more reasonable axioms that don't require a large leap of faith. Instead of trying to make high level arguments that must be unquestionable, we will instead craft a solid metaphysical base and build our framework from there. This work can be a little challenging, but if we don't do it this way, we'd just be lying to ourselves.
 
-section: Matter and Objects
+section: The Metaphysics of Coalescence
 
-	x-subsection: Metaphysics of Coalescence
+	Let us begin by defining our {Metaphysics}(b). As we said before, {metaphysics}(em) is concerned with answering the question of {"What exists?"}(strong)
+	
+	So, uh, {what exists?}(em)
+	
+	x-subsection: Abstract and Concrete Objects
 
-		Let us begin by defining our {Metaphysics}(b). As we said before, {metaphysics}(em) is concerned with answering the question of {"What exists?"}(strong)
-		
-		So, uh, {what exists?}(em)
-		
-		Most traditional metaphysics have two base categories of objects that exist: the {Concrete}(b) objects and the {Abstract}(b) objects. The concrete objects are physical objects, while the abstract objects are "ideas" or "concepts". We can agree that a physical desk "exists", and that the concept of the number three also "exists", and that the nature of these two objects are different, yes?
+		Most traditional metaphysics have two base categories of objects that exist: the {Concrete}(b) objects and the {Abstract}(b) objects. The concrete objects are physical objects, while the abstract objects are "ideas" or "concepts". We can agree that a physical desk "exists", and that the concept of the number three also "exists", and that the nature of these two objects is different, yes?
 
 		section:(class="status-quo") Abstract and Concrete Objects
 			x-field: Ontology
@@ -75,35 +75,159 @@ section: Matter and Objects
 			x-definition:
 				Concrete objects are "things" made out of matter, while abstract objects are "things" that are not made out of matter. Ideas, concepts, information, and knowledge all exist in the realm of the abstract.
 
-		This is a pretty good starting point. However, I don't think this differentiation is specific enough, and I think we should push further. Over the last hundred years, we have drastically expanded the boundaries of atomic and sub-atomic scientific knowledge. We have a much more vivid understanding of the "essence of matter" now than we used to, and we should use that knowledge to inform our definitions.
-		
-		So we ask: {Knowing that everything is made up of atomic particles that exert forces on other atomic particles, how do we draw the line between one physical object and another? Is there a meaningful scientific way to differentiate between the loose atomic bonds of the air around a desk and the desk itself? And what separates a droplet of water from the pond once it falls in?}(em)
-		
-		To those questions, we respond: {There is no physical basis for separation between concrete objects.}(strong) What separates physcial matter into different concrete objects are the "ideas" of the separate things themselves. From a physical perspective, the desk and the air around it are just atoms attracting and repelling each other to differing degrees. The thing that makes them separate is the {idea}(em) of "Air" and "A Desk", which allows them to be separated.
+		This is a pretty good starting point. However, I don't think this differentiation is specific enough, and I think we should push further. Over the last century, we have drastically expanded the boundaries of atomic and sub-atomic scientific knowledge. We have a much more vivid understanding of the "essence of matter" now than we used to, and we should use that knowledge to inform our definitions.
+	
+	x-subsection: Matter Exists
 
-		And so, we claim: The only things that exist are the elementary particles that make up atoms which, we'll call {Matter}(b), and non-physical "concepts", which we'll call {Objects}(b). Matter creates the physical basis of the universe, while Objects give it structure and meaning.
+		So we ask: {Knowing that everything is made up of sub-atomic particles that exert forces on other sub-atomic particles, how do we draw the line between one physical object and another? Is there a meaningful scientific way to differentiate between the loose atomic bonds of the air around a desk and the desk itself? And what separates a droplet of water from the pond once it falls in?}(em)
 
-		section:(class="new-concept") Matter and Objects
+		If we answer this question truthfully without using our current assumptions about the world, we'd say: {There is no physical basis for separation between concrete objects.}(strong)
+
+		To explain: from a physics perspective, an atom in the surface of the desk can (and does) interact with any of the atoms nearby, not {only}(em) the ones it has strongly bonded to. And similarly with the water droplet: what separates the drop from the ocean, now that its molecules share the same bonds with all of the other water molecules surrounding it?
+		
+		The physical matter just "exists"; atoms have no concept of "desk" or "water droplet". However, we can clearly see that "desk" and "water droplet" can be identified as separate objects, so we'll need to find {something else}(em) to explain the separation of matter into different objects.
+
+	x-subsection: Matter Has Possibility
+
+		In order to find that "something else", we must derive it from the facts that we have. Since we can observe, study, and explain the behavior of matter, we'll take the fact that {Matter Exists}(b) as an axiom (an assumption) at the root of our argument.
+		
+		From that starting point, what can we discover? Immediately, we can derive one concept from that axiom alone: if matter exists, then it must also have at least one "property"—the property of existence. Therefore, if matter exists, then matter has properties. In our universe, matter has other properties too, such as an electrical charge, mass, and size.
+
+		section:(class="proof")
+			x-given:
+				x-axiom: Matter Exists
+			x-arrow-connector:
+			x-then:
+				x-concept: Matter has Properties
+
+		Now with these two ideas, can we derive anything else? Let's think it through with a thought experiment about the simplest possible universe.
+
+		section:(class="thought-experiment") The Simplest Universe
+			x-related-concept: Matter has Possibility
+
+			Picture in your mind a brand new empty universe, completely separate from our own. Inside this universe there is only a {single point}(b). It's not an atom composed of smaller pieces; it is just a singular point.
+			
+			"The Point" is not moving, it is not vibrating, it is not rotating. It has no size, no weight, no mass. It doesn't even have a {position}(em), since there is nothing else to measure a position against. The only property of "The Point" is that it exists.
+
+			Now, what are the possibilities in this "Simplest Universe"? "The Point" has no width, length, or height, and so there are no physical dimensions in this universe. There is no movement, no relationships to other objects, no possibility for change. The Point can't do anything, can't go anywhere, can't even disappear—the possibility of "nothing" doesn't even exist in this universe. Math, chemistry, biology—none of these things can exist in this universe, because there is no {possibility}(em) for them.
+
+			There is just the one eternal possibility of "The Point Exists".
+		
+		Through this thought experiment about "The Simplest Universe", we can start to see an important concept: {the possibilities for matter emerge from the properties of that matter.}(strong)
+		
+		section:(class="proof")
+			x-given:
+				x-axiom: Matter Exists
+				x-and:
+				x-concept: Matter has Properties
+			x-arrow-connector:
+			x-then:
+				section:(class="new-concept") Matter has Possibility
+					x-field: Metaphysics
+					x-definition:
+						The existence and properties of matter determine what is possible for that matter. For example, if matter has no orientation, then it is not {possible}(em) for it to rotate. If matter has no position, it is not {possible}(em) for it to move.
+						
+						Since all matter that exists has at least one property—the property of existence—then all matter has at least one possibility—that it exists.
+
+		In "The Simplest Universe", there is only one particle of matter, and it only has one property: that it exists. This results in a universe with a single possibility: the existence of the point. In {our}(em) universe, there are many more particles—popular estimates say at least 3x10{80}(sup)—and those particles have more properties, giving our universe an incredible amount of possibility.
+
+		Getting back to our question: could this concept of "possibility" be our {something else}(em) that allows us to explain the separation of matter into distinct objects? I say "Yes"; but let us first dig a little deeper into what possibility is.
+
+	x-subsection: Possibilities are Conceptual
+
+		We've now constructed several concepts from our single, reasonable axiom that {Matter Exists}(b). We know that if matter exists then matter has properties, and if matter has properties then matter has possibility. So in our quest to answer the question {What exists?}(strong), we now have two answers: {Matter}(b) and {Possibility}(b). Can we do a better job of defining possibility?
+
+		Possibility is not {probability}(em); just because something is possible, does not mean that it is likely to occur. This means that the number of possibilities in the universe is most likely far, far larger than the things that actually occur. To understand this better, lets walk through a thought experiment around something we're all a lot more familiar with: a screen.
+		
+		section:(class="thought-experiment") The Possibilities of a Screen
+
+			Think about the screen you are reading this on: every single pixel on the screen is capable of displaying 16.7 million colors, and the most common display size is 1920 pixels wide by 1080 pixels tall. That means that the number of possible images the screen can display is 16,777,216{1080 * 1920}(sup), or 1.5x10{14,981,179}(sup).
+			
+			That is a number that is almost {15 million digits long}(em).
+			
+			If you remember from earlier, we said that the number of particles in the universe is most likely around 3x10{80}(sup), which is already unfathomably large. The number of images this screen is capable of displaying is {so absolutely unfathomably larger}(em) than the number of particles in the universe.
+
+			Though when you think about it, this makes sense: every thing you've ever seen on a screen is one of those images. Every word document, every website, every social media post, every frame of every video that anyone has ever seen and ever will see has been displayed as an image on the screen. From a theoretical perspective, every image that can possibly be displayed on a screen {already exists within the possibility of the screen}(em).
+
+			Also worth noting is that the vast majority of the images within the screen's possibility are nonsense. Imagine if every pixel on the screen displayed a random color: that's what the vast majoriy of the images look like within the possibility of the screen. And so the billions of images you've seen (and ever will see) on a screen are just among the very very few that could ever have meaning to a human being.
+			
+			This is what we mean when we say that "possibilities are greater than the probabilities".
+
+		So, just like every image we've ever seen on a screen has always conceptually existed within the screen's possibility, everything that has ever existed (or will exist) in the universe has always conceptually existed within the possibility of matter itself. And, just like 2 million pixels and their properties of color create a seemingly infinite number of possible images, the seemingly infinite number of particles and their physical properties create an {even more infinite}(em) number of material possibilities.
+
+		Now we understand that, just by existing with certain properties, matter has a conceptual set of possibilities within it, and that the vast majority of those possibilities will never be realized. This means that possibilities are {conceptual}(em).
+
+		What separates physcial matter into different concrete objects are the "ideas" of the separate things themselves. From a physical perspective, the desk and the air around it are just atoms attracting and repelling each other to differing degrees. The thing that makes them separate is the {idea}(em) of "Air" and "Desk", which allows them to be separated.
+
+		And so, we claim: The only things that exist are the elementary particles that make up atoms, which we'll call {Matter}(b), and non-physical {Concepts}(b). Matter creates the physical basis of the universe, while Concepts give it structure and meaning.
+
+		section:(class="new-concept") Matter and Concepts
 			x-field: Cooperative Coalescence
 			x-field: Metaphysics
 			x-definition:
-				Matter and Objects are the two base categories of "things that exist". Matter is the particles that make up the physical aspect of the universe, and Objects are the non-tangible concepts that give structure and meaning to the universe.
-				
-				The two categories are also co-dependent: without objects, matter could not exist as anything but raw particles, and without matter, objects would have nothing to describe. Neither can exist without the other.
-	
+				Matter and Concepts are the two base categories of "things that exist". Matter is the particles that make up the physical aspect of the universe, and non-tangible Concepts are what give structure and meaning to the universe.
+
 		The scientific field of Physics studies matter in extensive detail. We know an incredible amount about the properties of physical matter, down to the composition and behavior of an atom, and even beyond that into the realm of Quantum Physics. Matter is "easy" to study, since it is physical and can be observed and described in unambiguous mathematical notation.
 		
-		This gives a certain elegance to the clean break between categories in our metaphysics: one half of the metaphysics—matter—is synonymous with the robust field of physics, leaving us to focus exclusively on defining the other half—objects.
+		This gives a certain elegance to the clean break between categories in our metaphysics: one half of the metaphysics—matter—is synonymous with the robust field of physics, leaving us to focus exclusively on defining the other half—concepts.
 
-	x-subsection: The Nature of an Object
+	x-subsection: Matter Creates Concepts
 
-		Objects are "concepts" or "ideas". The number three is an object, the game of Baseball is an object, the concept of objects themselves is an object. The {concept}(em) of your phone sitting on the table is also an object that is separate from the matter that makes up your actual phone that is sitting on the table.
+		Since this hypothetical universe is so simple, we can see an interesting truth: the possibilities of the universe {emerge}(em) from the matter. And since we've defined {concepts}(em) to be the non-physical 
 
-		As thinking human beings, we spend a lot of time with objects inside our mind. Does this mean that objects are products of our minds? Well, no. Even before humans had the capacity to think, we can agree that "the concept of the number three" still existed. And in millions of years, if humanity has faded away, "the concept of the game of Baseball" would still exist, even if nobody had thought about it for eons, and will never think of it again.
+		In the "Simplest Universe", there is so little going on that we can hold the entire universe and its possibilities in our mind at once. Because of this, we can see that the possibilities of the universe {emerge}(em) from the matter of the universe; the properties of "The Point" dicatate the single possibility of ". This possibility, which is not physical, is the sole {Concept}(b) of the "Simplest Universe".
 
-		So what is the nature of objects? They appear to exist outside of time, and instead of being created by humans they seem to be "discovered". We can hold objects in our mind, but we can also convert them into information and send them to the minds of others through {communication}(em). 
+		Now add a second point. Give them both a size (they're spheres now) and make them begin to spin. See how the possibilities start to grow? With a third point, we can even start making comparisons! How do the gaps between spheres compare? And how do those gaps compare to the size of the spheres?
 
-		Is it possible to simplify this definition any further? Should we even try? I don't think it matters much. This understanding that objects are concepts, non-physical things that "exist" regardless of whether they are discovered, is enough. Objects are the "matter" of ideas. We can take this as an axiom.
+		Suddenly with just a few additional properties and two more elements of matter, the possibilities of this universe become too large to contain completely within our mind. We can start doing simple proprtional geometry on the shapes, and with three objects, perhaps even begin to assume the theoretical existence of larger numbers. We can develop a simple math system, and start defining relationships between the particles.
+
+		Possibilities {emerge}(em) from the matter of the universe, and possibilites are {Concepts}(b).
+
+
+section: The Nature of a Concept
+
+	How do we define a concept if a definition is made out of concepts? This is the issue with working at the "bottom" of "existence"—we're in the territory of axioms, here.
+	
+	So instead of directly defining "Concepts", we will instead build up axioms, {assumptions}(em), about what we expect from them. We'll do that by thinking through some questions about what they are and where they come from, and end up with a list about what we can say about the nature of concepts.
+	
+	x-subsection: "What" are Concepts?
+
+		To begin, let's start with some examples.
+		
+		The number three is a concept. The game of Baseball is a concept. The calendar is a concept, an hour is a concept, and "next tuesday" is a concept. The freezing point of water is a concept. The concept of concepts themselves is a concept.
+		
+		{Numbers, rules, and information are all concepts.}(strong)
+		
+		The {concept}(em) of your smartphone is an concept, which is separate from the {actual atoms}(em) that make up your phone. The concept of your phone's {screen}(em) is a concept, and the concept of its {battery}(em) is a concept too. Materially, these objects are all just atoms. The concepts of "screen", "battery", and "complete smartphone" are what give those atoms meaning in context.
+		
+		{The ideas that separate physical matter into distinct objects are concepts.}(strong)
+
+	x-subsection: "Where" are Concepts?
+
+		But where do concepts come from? We're talking about something that has no physical presence, so "where" is an awkward question. However, one answer does spring to mind: the mind itself. Our brain is made out of physical matter, but the thoughts that occur in our mind are concepts.
+		
+		{Everything in our mind must be a concept.}(strong)
+		
+		Does this mean that concepts are thoughts that exist only in the mind? Well, no. Even before humans had the capacity to think, we can agree that "the concept of the number three" still existed, even if it hadn't been discovered by humans yet. And in millions of years if humanity has faded away, "the concept of the game of Baseball" would still exist, even if nobody had thought about it for eons and will never think of it again.
+
+		{Concepts exist independently of the mind.}(strong)
+
+	x-subsection: "How" are Concepts created?
+
+		One final question we can ask is: how do concepts come into existence? You may have agreed with me that "the concept of the number three" still existed before being discovered by humans, but you might be more reluctant to agree that the "Happy Birthday Song" existed before humans {created}(em) it.
+
+		Let's look at it in a different way: 
+
+		{Concepts exist outside of time.}(strong)
+
+		{Concepts are not created, but "discovered".}(strong)
+
+	Is it possible to simplify this definition any further? Should we even try? I don't think it matters much. This understanding that  concepts are non-physical things that "exist" regardless of whether they are discovered, is enough. Concepts are the "matter" of ideas. We can take this as an axiom.
+
+	section:(class="new-concept") The Nature of Concepts
+
+		1. Abstract ideas—like numbers, rules, and information—are Concepts.
+		2. Material things can be "wrapped in" and represented by a Concept.
 
 section: Abstractions
 
