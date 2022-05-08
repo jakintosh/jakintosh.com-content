@@ -21,7 +21,7 @@ page.content:sam->html
 +++
 x-article-header:
 	x-title: jakintosh.com
-	x-date: May 8th, 2022: {Building a Metaphysics}(a|href="coalescence/building-a-metaphysics.html")
+	x-date: May 8th, 2022: {Building a Metaphysics}(a|href="coalescence/matter-and-concepts.html")
 
 section:(id="welcome") Welcome
 	
@@ -67,7 +67,7 @@ section:(id="changelog") Change Log
 
 	x-change:
 		x-date: May 8, 2022
-		p: Published "Building a Metaphysics" post
+		p: Published "Matter and Concepts" post
 		p: Large scale site revamp—simplified the structure and evolved the design
 
 	x-change:
