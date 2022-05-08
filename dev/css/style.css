@@ -419,6 +419,7 @@ section.new-concept,
 section.thought-experiment,
 section.site-sections,
 section.recent-posts,
+section.chapter-preview,
 section.recap {
 	display: block;
 	padding: calc(1.5 * var(--article-padding));
@@ -429,6 +430,7 @@ section.recap {
 section.status-quo,
 section.site-sections,
 section.recent-posts,
+section.chapter-preview,
 section.recap {
 	border: 1px solid var(--fg);
 	box-shadow: var(--fg2) 4pt 4pt 0;
@@ -503,6 +505,10 @@ section.site-sections>x-section-title::before {
 
 section.recent-posts>x-section-title::before {
 	content: "■ Content Group";
+}
+
+section.chapter-preview>x-section-title::before {
+	content: "■ Chapter Preview";
 }
 
 section.recap>x-section-title::before {

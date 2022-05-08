@@ -3,14 +3,15 @@ type::post
 post:json
 +++
 {
-	"title": "Building a Metaphysics",
-	"slug": "building-a-metaphysics",
+	"title": "Matter and Concepts",
+	"slug": "matter-and-concepts",
 	"metadata": {
-		"content_name": "Building a Metaphysics",
+		"content_name": "Matter and Concepts",
 		"directory": "coalescence",
 		"author_name": "jak",
 		"published_date": "2022-05-08",
-		"version": 1
+		"version": 1,
+		"build": true
 	}
 }
 +++
@@ -19,13 +20,21 @@ post.content:sam->html
 +++
 section: Introduction
 
-	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em)(a|href="{{base_url}}/coalescence").
+	This is the first chapter in a series that outlines a new cultural operating system called {cooperative coalescence}(a|href="{{base_url}}/coalescence"). But what exactly is a "cultural operating system"? I believe that it is composed of two parts: the {philosophical framework}(b), and the {social structures}(b) built on top of that framework. This chapter outlines the foundation of the philosophical framework.
 	
-	As our first step, we will define what we mean by {Philosophy}(b) in the first place, and why it is important. We will then dedicate the bulk of the chapter to deriving a {Metaphysics}(b); this means that we will explore the fundamental question of "What Exists?". Finally, we will spend a little time describing one of the components of the metaphysics, called the {Concept}(b).
+	section:(class="chapter-preview") Matter and Concepts
+
+		In this chapter, we will will build the foundation of the philosophical framework for the cultural operating system called {Cooperative Coalescence}(em).
+
+		1. Define what {Philosophy}(b) is in the first place, and why it is important
+		2. Derive a {Metaphysics}(b), which means we'll explore the fundamental question of {"What Exists?"}(em)
+		3. Describe the {Concept}(b), one of the key components of the metaphysics we develop
 	
-	This might sound extremely academic and dense, but I do my best to walk through these ideas in small, reasonable steps, using grounded thought experiments. I encourage you to dive in and see how it goes. Even if it {does}(em) prove to be too dense for now, I encourage you to move on to the next chapter anyway. Don't let this chapter stop you from getting to the higher level chapters; you can always come back later.
+	This might sound overly academic and dense, but I do my best to walk through these ideas in small, reasonable steps, using grounded thought experiments. I think you should just dive in and see how it goes. If you find it too dense for now, move on to the next chapter—you can (and should) come back later after you've gotten through some of the larger ideas. {Don't let this chapter stop you from getting to the interesting stuff.}(strong)
 	
-	The point of this chapter being so thorough is to provide the details for those who come looking for it. I imagine that most people may end up being drawn in by some of the higher level chapters later on, and I want this lower level philosophy to be here if (and when) some of them come looking for the foundations of those ideas. One of the driving factors for developing this system is to move past all of our collective "bad assumptions"; this chapter is me "showing my work".
+	That being said, the point of this chapter being so thorough is to have the details available for those who come looking for them. I imagine that most people will end up being drawn in by some of the higher level chapters later on, and I want this lower level philosophy to be here if (and when) some of those people come looking for the foundations of those ideas. 
+	
+	One of the driving factors for developing this system is to move past all of our collective "bad assumptions"; this chapter is me "showing my work".
 
 section: Philosophy in 60 Seconds
 
@@ -40,7 +49,7 @@ section: Philosophy in 60 Seconds
 			x-definition:
 				Metaphysics is the study of the fundamental questions of existence, matter, reality, and consciousness. Metaphysics is concerned with answering the question {"What are the things that exist?"}(em), and the follow up {"What are they like?}(em)
 
-		What makes philosophy so important is that it is the foundation for every other branch of human thinking. Philosophy sits underneath Politics, Religion, and Ethics. The true power of a well designed philosophyical system is that it can provide a strong and stable base for human society. In other words, philosophy is how we can "scientifically" create a consistent and well reasoned worldview.
+		What makes philosophy so important is that it is the foundation for every other branch of human thinking. Philosophy sits underneath Politics, Religion, and Ethics. The true power of a well designed philosophical system is that it can provide a strong and stable base for human society. In other words, philosophy is how we can "scientifically" create a consistent and well reasoned worldview.
 
 		The most important takeaway is this: since philosophy sits underneath everything else, then the way a society answers the fundamental questions of philosophy dictates {everything}(em) about how that society is structured. {Every aspect of your life is shaped by the socially dominant philosophical framework.}(strong) You should understand what that framework is, and how to judge its quality.
 
@@ -67,7 +76,7 @@ section: The Metaphysics of Coalescence
 	
 	So, uh, {what exists?}(em)
 
-	aside: This is most likely going to be the densest and most abstract component of the entire philosophical framework. It's only natural: we're exploring the most foundational philosophical question, and since it will form the base for everything else we want our answer to be well reasoned. A tip before diving in: if you ever feel lost, feel free to move on and come back later. Because of how interconnected many of the pieces of this framework are, you might get more out of this section after you've read the chapters on Systems, Emergence, and Cognition. While this is the "foundation" of the system, there's no right or wrong order to read it in. In fact, even if you do get through it all now, I encourage you to come back and occasionaly read it again as you progress through the framework.
+	aside: Remember: this might get dense, and you can always skip ahead and come back later. Due to the highly interconnected nature of all of the components of the framework, the more pieces you know about, the more all of them will make sense.
 	
 	x-subsection: Abstract and Concrete Objects
 
@@ -79,21 +88,25 @@ section: The Metaphysics of Coalescence
 			x-definition:
 				Concrete objects are "things" made out of matter, while abstract objects are "things" that are not made out of matter. Ideas, concepts, information, and knowledge all exist in the realm of the abstract.
 
-		This is a pretty good starting point. However, I don't think this differentiation is specific enough, and I think we should push further. Over the last century, we have drastically expanded the boundaries of atomic and sub-atomic scientific knowledge. We have a much more vivid understanding of the "essence of matter" now than we used to, and we should use that knowledge to inform our definitions.
+		This is a pretty good starting point. However, this leaves the definition of "concrete object" far too loose: how do we define a "thing"? Is an atom concrete? A molecule? A smartphone? Leaving the foundation of a philosophy this open to interpretation is not a great start.
+
+		Over the last century, we have made huge advances in atomic and sub-atomic scientific knowledge. We have a much more vivid understanding of particle physics now than we used to, and we should use that knowledge to inform our definitions. So, while we may use these terms of "abstract" and "concrete" in the meantime, let's start from scratch and develop a new foundation.
 	
 	x-subsection: Matter Exists
+
+		Since we can observe, study, and explain the behavior of matter, we'll take the fact that {Matter Exists}(b) as an axiom (an assumption) at the root of our argument. (If you can't agree that matter exists, then you may want to ask your doctor if you have a case of terminal contrarianism.)
 
 		So we ask: {Knowing that everything is made up of sub-atomic particles that interact with other sub-atomic particles, how do we draw the line between one physical object and another? Is there a meaningful scientific way to differentiate between the atomic interactions of the air around a desk and the desk itself? And what separates a droplet of water from the ocean once it falls in?}(em)
 
 		If we answer this question truthfully without relying on our current assumptions about the world, we'd say: {There is no physical basis for separation between concrete objects.}(strong)
 
-		To explain: from a physics perspective, an atom in the surface of the desk can (and does) interact with any of the atoms nearby, not {only}(em) the ones it has strongly bonded to. And similarly with the water: the molecular bonds in a droplet are no different than those in the ocean. The particles that make up the universe just {exist}(em), interacting with any and all other particles that comes their way. The particles themselves have no concept of "desk" or "water droplet".
+		To explain: from a physics perspective, an atom in the surface of the desk can (and does) interact with any of the atoms nearby, not {only}(em) the ones it has strongly bonded to. And similarly with the water: the molecular bonds in a droplet are no different than those in the ocean. The particles that make up the universe just {exist}(em), interacting with any and all other particles that come their way, based on the rules of physics. The particles themselves have no concept of "desk" or "water droplet".
 		
-		However, we can clearly see that "desk" and "water droplet" can be identified as separate objects, we'll need to find {something else}(em) to explain the separation of matter into different objects within our metaphysics.
+		However, we can clearly see that "desk" and "water droplet" can be identified as separate objects, so we'll need to find {something else}(em) to explain the separation of matter into different objects within our metaphysics.
 
-	x-subsection: Matter Has Possibility
+	x-subsection: Matter has Properties
 
-		In order to find that {something else}(em), we must derive it from the facts that we have. Since we can observe, study, and explain the behavior of matter, we'll take the fact that {Matter Exists}(b) as an axiom (an assumption) at the root of our argument.
+		In order to find that {something else}(em), we must derive it from the facts that we have. We've already established our root axiom: {Matter Exists}(b).
 		
 		From that starting point, what can we discover? Immediately, we can derive one concept from that axiom alone: if matter exists, then it must also have at least one "property"—the property of existence. Therefore, if matter exists, then matter has properties. In our universe, matter has other properties too, such as an electrical charge, mass, and size.
 
@@ -103,21 +116,25 @@ section: The Metaphysics of Coalescence
 			x-arrow-connector:
 			x-then:
 				x-concept: Matter has Properties
+	
+	x-subsection: Matter Has Possibility
 
-		Now with these two ideas, can we derive anything else? Let's think it through with a thought experiment about the simplest possible universe.
+		We now have two ideas to work with; can we derive anything else from them? In order to investigate, let's build a thought experiment about the simplest possible universe that uses these two ideas, and see if we notice anything.
 
 		section:(class="thought-experiment") The Simplest Universe
 			x-related-concept: Matter has Possibility
 
 			Picture in your mind a brand new empty universe, completely separate from our own. Inside this universe there is only a {single point}(b). It's not an atom composed of smaller pieces; it is just a singular point.
 			
-			"The Point" is not moving, it is not vibrating, it is not rotating. It has no size, no weight, no mass. It doesn't even have a {position}(em), since there is nothing else to measure a position against. The only property of "The Point" is that it exists.
+			The point is not moving, it is not vibrating, it is not rotating. It has no size, no weight, no mass. It doesn't even have a {position}(em), since there is nothing else to measure a position against. The only property of the point is that it exists.
 
-			Now, what are the possibilities in this "Simplest Universe"? "The Point" has no width, length, or height, and so there are no physical dimensions in this universe. There is no movement, no relationships to other objects, no possibility for change. The Point can't do anything, can't go anywhere, can't even disappear—the possibility of "nothing" doesn't even exist in this universe. Math, chemistry, biology—none of these things can exist in this universe, because there is no {possibility}(em) for them.
+			An interesting question starts to occur to us: What are the {possibilities}(b) in this simplest universe? Since the point has no width, length, or height, there are no physical dimensions in this universe. Without dimensions to move on, there is no movement. With only one object, there can be no relationships to other objects. With no possibility for change, there can be no measure of time.
+			
+			The point can't do anything, can't go anywhere, can't even disappear—the possibility of "nothing" doesn't even exist in this universe. Math, chemistry, biology—none of these things can exist in this universe, because there is no {possibility}(em) for them.
 
 			There is just the one eternal possibility of "The Point Exists".
 		
-		Through this thought experiment about "The Simplest Universe", we can start to see an important concept: {the possibilities for matter emerge from the properties of that matter.}(strong)
+		Through this thought experiment about "The Simplest Universe", we are able to see an important concept: {the possibilities for matter emerge from the properties of that matter.}(strong)
 		
 		section:(class="proof")
 			x-given:
@@ -137,7 +154,7 @@ section: The Metaphysics of Coalescence
 
 		In "The Simplest Universe", there is only one particle of matter, and it has only one property: that it exists. This results in a very small possibility space with a single possibility: "the existence of the point".
 		
-		In {our}(em) universe, there are many more particles—popular estimates say at least 3x10{80}(sup)—and those particles have more properties, giving our universe a possibility space so massive that calculating it would be nearly impossible (nevermind actually comprehending the result of the calculation).
+		In {our}(em) universe, there are many more particles—popular estimates say at least 3x10{80}(sup)—and those particles have more properties, giving our universe a possibility space so massive that calculating it would be nearly impossible (never mind actually comprehending the result of the calculation).
 
 		So, getting back to our question: is "possibility" our {something else}(em) that allows us to explain the separation of matter into distinct objects? We'll soon see that the answer is "Yes", but let's continue exploring this idea to see why.
 
@@ -176,17 +193,17 @@ section: The Metaphysics of Coalescence
 				
 				In the case of physical matter, every single "thing" (outcome) in the universe emerges from the possibility space created by all of the particles of matter and their properties.
 
-		We now have one more building block: the existence of matter creates possibility, and {from possibility emerges real outcomes.}(strong) Those "outcomes"
+		We now have one more building block: the existence of matter creates possibility, and {from possibility emerges real outcomes.}(strong)
 
 	x-subsection: Possibilities are Conceptual
 
 		The final—and most important—thing we notice is that since possibilities are not physical, they are {conceptual}(em). In fact, the possibility space of matter makes room for more than just "possible material outcomes", {but also for things that are purely conceptual.}(strong)
 		
-		To illustrate what I mean: in "The Simplest Universe", due to the properties of "The Point", there was no possibility for position or movement, and so there was no {concept}(em) of position or movement. There was only a single unchanging thing, so there was no {concept}(em) of numbers or count, and as a result no concept of mathematics. Since nothing could change, there was not even a {concept}(em) of time.
+		To illustrate what I mean: in "The Simplest Universe", due to the properties of "The Point", there was no possibility for position or movement, and so there was no {concept}(em) of position or movement. There was only a single unchanging thing, so there was no {concept}(em) of numbers or count, and as a result no {concept}(em) of mathematics. Since nothing could change, there was not even a {concept}(em) of time.
 		
-		In our universe, the particle properties of electric charge and mass create the {concept}(em) of Physics. The multitude of particles create {concepts}(em) of relationship and number, and from those the concept of mathematics. The properties of matter also create the possibility for particles to come together to create atoms, and for those atoms to bond into molecules. This new layer of possibility creates the {concepts}(em) of Cosmology, Geology, and eventually Biology.
+		In our universe, the particle properties of electric charge and mass create the {concept}(em) of Physics. The multitude of particles create {concepts}(em) of relationship and number, and from those the {concept}(em) of mathematics. The properties of matter also create the possibility for particles to come together to create atoms, and for those atoms to bond into molecules. This new layer of possibility creates the {concepts}(em) of Cosmology, Geology, and eventually Biology.
 
-		Given these examples, we should expand our understanding: {inside the possibilty space of matter is every concept in the universe.}(strong) These concepts can represent possible configurations of matter (outcomes), but can also be purely conceptual "ideas".
+		Given these examples, we should expand our understanding: {inside the possibility space of matter is every concept in the universe.}(strong) These concepts can represent possible configurations of matter (outcomes), but can also be purely conceptual "ideas".
 
 		This also finally solves our "separation" problem. While the particles are just interacting with other particles, we can now say that what separates the desk from the air around it, and the drop from the ocean, are the {concepts}(em) of "desk", "air", "droplet", and "ocean".
 
@@ -206,7 +223,7 @@ section: The Metaphysics of Coalescence
 			x-definition:
 				Matter and Concepts are the two base categories of "things that exist". {Matter}(b) is the particles that make up the physical aspect of the universe, and {Concepts}(b) are the non-tangible possibilities of matter that give structure and meaning to the universe.
 
-		In the end, this doesn't end up being that different than the "Concrete/Abstract Object" dichotomy of traditional Ontology. However, the small differences and the reasoning behind them are important. Instead of calling the entirety of a "Desk" a self-contained concrete object and leaving it at that, we instead say that there exists some matter, and that the concept of a distinct "Desk Object" comes out of the possibility space of the matter itself. We no longer have to make incorrect assumptions about how physics works, since atoms don't "belong" to objects, but instead the idea of objects {emerge}(em) from the atoms.
+		In the end, this doesn't end up being that different from the "Concrete/Abstract Object" dichotomy of traditional Ontology. However, the small differences and the reasoning behind them are important. Instead of calling the entirety of a "Desk" a self-contained concrete object and leaving it at that, we instead say that there exists some matter, and that the concept of a distinct "Desk Object" comes out of the possibility space of the matter itself. We no longer have to make incorrect assumptions about how physics works, since particles don't "belong" to objects, {but instead the concept of objects emerge from the particles.}(strong)
 
 section: The Nature of a Concept
 
@@ -222,11 +239,11 @@ section: The Nature of a Concept
 
 		Let's begin with some examples.
 		
-		The number three is a concept. The game of Baseball is a concept. The calendar is a concept, an hour is a concept, and "next tuesday" is a concept. The freezing point of water is a concept. The concept of concepts themselves is a concept. The concept of {matter}(em) is a concept.
+		The number three is a concept. The game of Baseball is a concept. The calendar is a concept, an hour is a concept, and "Next Tuesday" is a concept. The freezing point of water is a concept. The concept of concepts themselves is a concept. The concept of {matter}(em) is a concept.
 		
 		{Numbers, rules, and information are all concepts.}(strong)
 		
-		The {concept}(em) of your smartphone is a concept, which is separate from the {matter}(em) that makes up your phone. The concept of your phone's {screen}(em) is a concept, and the concept of its {battery}(em) is a concept too. Materially, these objects are all just matter, but the concepts of "screen", "battery", and "complete smartphone" are what give the matter meaning in context. Another way to think about it: we can "wrap" matter in a concept to represent a distinct object.
+		The {concept}(em) of your smartphone is a concept, which is separate from the {matter}(em) that makes up your phone. The concept of your phone's {screen}(em) is a concept, and the concept of its {battery}(em) is a concept too. Materially, these objects are all just particles, but the concepts of "screen", "battery", and "complete smartphone" are what give the matter meaning in context. Another way to think about it: we can "wrap" matter in a concept to represent a distinct object.
 		
 		{The ideas that categorize physical matter into distinct objects are concepts.}(strong)
 
@@ -248,7 +265,7 @@ section: The Nature of a Concept
 
 	x-subsection: "How" are Concepts created?
 
-		One final thing to grapple with: "how" concepts are created. If you've been following along closely, you know that we've already answered this numerous times. However, {Competitive Individualism}(em) gives us a competing answer to this question that we should dismantle specifically: that humans, through hard work and innovation, {create}(b) new concepts. This is another one of those poorly constructed axioms that stands on shaky ground. This is something that we'll find to be more and more true as we progress to later chapters, but for now we will just make sure to distinguish that concepts cannot created by humans, only "discovered".
+		One final thing to grapple with: "how" concepts are created. If you've been following along closely, you know that we've already answered this numerous times (from the possibility space!). However, {Competitive Individualism}(em) gives us a competing answer to this question that we should dismantle specifically: that humans, through hard work and innovation, {create}(b) new concepts. This is another one of those poorly constructed axioms that stands on shaky ground. This is something that we'll find to be more and more true as we progress to later chapters, but for now we will just make sure to distinguish that since every concept has always existed in the possibility space of the universe, concepts cannot created by humans, only "discovered".
 
 		{Concepts are not created, but "discovered".}(strong)
 
@@ -268,33 +285,33 @@ section: The Nature of a Concept
 
 section: What We've Learned
 
-	We've now covered all of the core concepts of the entire metaphysics for cooperative coalescence. Everything from here on will build on top of these ideas, while also making connections to other scientific disciplines like Cognitive Psychology and Systems Theory.
+	We've now covered all of the core concepts of the entire metaphysics for {cooperative coalescence}(a|href="{{base_url}}/coalescence"). Everything in future chapters will build on top of these ideas, while also making connections to other scientific disciplines like {Cognitive Psychology}(b) and {Cybernetics}(b).
 
 	Let's review what we learned.
 
 	x-subsection: Philosophy
 
-		{Philosophy}(b) is the study of "fundamental questions", and {Metaphysics}(b) is a branch of philosophy that deals with the questions: "What exists? And what is it like?" Philosophy is important because the answers to "fundamental questions" affect all human institutions like Government, Law, Ethics, and Religion. Therefore, the socially dominant philosophical system impacts every aspect of your life, and you should know how to reason about it.
+		{Philosophy}(b) is the study of "fundamental questions", and {Metaphysics}(b) is a branch of philosophy that deals with the questions: {"What exists? And what is it like?"}(b) Philosophy is important because the answers to "fundamental questions" affect all human institutions like Government, Law, Ethics, and Religion. Therefore, the socially dominant philosophical system {impacts every aspect of your life}(b), and you should know how to reason about it.
 
 		Within philosophy and other logical pursuits is the concept of an {Axiom}(b), which is an idea that is so self evident or irreducible that we accept it as fact. In other words, an axiom is an assumption. When building arguments, we should use only the most simple and reasonable axioms, and use as few as is necessary. When axioms are too high level or ungrounded ("Because I'm your father and I said so"), they don't hold any logical weight. Many of the assumptions we live by in the current philosophical system are built on poor axioms.
 
 	x-subsection: The Metaphysics of Coalescence
 
-		In traditional metaphysics, there is the concept of Concrete and Abstract objects, which are tangible (a desk) and non-tangible (a number) objects. We believe that this is not specific enough, and doesn't respect our modern understanding of physics; atomic particles do not "belong" to a desk.
+		In traditional metaphysics, there is the concept of {Concrete and Abstract objects}(b), which are tangible (a desk) and non-tangible (a number) objects. We believe that this is not specific enough, and doesn't respect our modern understanding of physics; atomic particles do not "belong" to a desk.
 
-		We create the initial axiom of a new metaphysics based on the understanding that {Matter Exists}(b). We determine that if matter exists, then it has at least one property (its existence), and so all matter has properties. We point out that in our universe, particles have several properties, such as an electrical charge and a physical mass. By imagining a universe with one sizeless, motionless particle, we determine that the properties of matter are what determines the possibilities for matter.
+		We create the initial axiom of a new metaphysics based on the understanding that {Matter Exists}(b). We determine that if matter exists, then it has at least one property (its existence), and so {all matter has properties}(b). We point out that in our universe, particles have several properties, such as an electrical charge and a physical mass. By imagining a universe with a single, size-less, motion-less particle, we determine that {the properties of matter are what determines the possibilities for matter}(b).
 
-		From there, we imagine all of the possibilities of images a computer screen can display to help visualize the magnitude of possibility in the universe, and the difference between possibility and probability; just because something {can}(em) happen, doesn't mean it {will}(em). We also identify that the properties of matter create possibilities for conceptual relationships, like physics, math, chemistry and biology. We ultimately concluded that what actually exists inside the possibilities of matter is every possible concept in the universe.
+		From there, we imagined all of the possible images a computer screen can display to help visualize the magnitude of possibility in the universe, and the difference between {possibility}(em) and {probability}(em); just because something {can}(em) happen, doesn't mean it {will}(em). We also identify that {the properties of matter create possibilities for conceptual relationships}(b), like physics, math, chemistry and biology. We ultimately concluded that what actually exists inside the possibilities of matter is {every possible concept in the universe}(b).
 
-		Ultimately, we responded to our question of "What exists?" with the answer: the only thing that exists is Matter, but if Matter exists then Concepts also exist. Matter creates the physical basis of the universe, while concepts provide the structure and meaning.
+		Ultimately, we responded to our question of "What exists?" with the answer: {the only thing that exists is Matter, but if matter exists then Concepts also exist}(b). Matter is the physical particles that make up the universe, and concepts are the possibilities that emerge from the properties of matter. Matter creates the physical basis of the universe, while concepts provide the structure and meaning.
 
 	x-subsection: The Nature of Concepts
 
-		Finally, we asked our follow up question in defining the metaphysics: "What is it like?" We noted that base component, matter, has an entire branch of science dedicated to answering the question: Physics. And so, we set out to ask and answer some questions about Concepts so that we could get a better understanding of what it is like.
+		Finally, we asked our follow up question in defining the metaphysics: {"What is it like?"}(b) We noted that the fundamental component, matter, has the entire scientific field of {Physics}(b) dedicated to answering the question {"What is matter like?"}(b) And so, we set out to ask some questions about concepts to answer our final question: {"What are concepts like?"}(b)
 
-		We asked for some examples of concepts, and said that things like numbers, ideas, and information are concepts. We also determined that there are "wrappers" for grouping matter together, like the "concept of a desk". We then asked "where" concepts exist, and reiterated that they originate from the possibilities of matter, but that they can also exist inside the mind (or any computation system). By understanding that the properties of matter don't change, we determined that concepts exist outside of time: they have always been/will be a possiblity, and so the have always/will always exist. Finally, we made it clear that since concepts have always existed, they can not be created, only discovered.
+		We asked for some examples of concepts, and said that things like numbers, rules, and information are concepts. We also determined that concepts can be used as "wrappers" for grouping matter together, like the "concept of a desk". We then asked "where" concepts exist, and reiterated that they originate from the possibilities of matter, but that they can also exist inside the mind (or any computation system). By understanding that the properties of matter don't change, we determined that concepts exist outside of time: they have always been and will always be a possibility, and so they have always existed and will always exist. Finally, we made it clear that since concepts have always existed, they can not be created, only discovered.
 
 	x-subsection: Up next
 
-		Something
+		In the next chapter, we'll continue digging into what concepts are, and how they function. Specifically, we'll be looking at one of their most important properties: {Abstraction}(b). Learning about abstraction will give you a powerful new thinking tool to use in your every day life, and also set us up to tackle some of the more interesting parts of the framework, like {Systems and Emergence}(b) and eventually {The Superorganism}(b).
 +++
