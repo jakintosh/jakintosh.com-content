@@ -19,14 +19,14 @@ Home
 page.content:sam->html
 +++
 x-article-header:
-	x-title: cc://jakintosh.com
-	x-date: April 25th, 2022: {Emergence}(a|href="coalescence/understanding-emergence.html")
+	x-title: jakintosh.com
+	x-date: May 8th, 2022: {Metaphysics}(a|href="coalescence/building-a-metaphysics.html")
 
 section:(id="welcome") Welcome
 	
 	My name is {@jakintosh}(a|href="https://github.com/jakintosh").
 
-	This website is a space for me to share my work on a philosophical framework called {cooperative coalescence}(a|href="coalescence/"). It is the result of my personal exploration into existential questions: "Why are we here?", "Why are things the way they are?", {"How are things supposed to be?"}(em). It is informed by studying history, economics, ecology, computer science, complex systems, and information theory.
+	This website is a space for me to share my work on a philosophical framework called {cooperative coalescence}(a|href="coalescence/"). It is the result of my personal exploration into existential questions: "Why are we here?", "Why are things the way they are?", {"How are things supposed to be?"}(em). It is informed by studying physics, philosopohy, complex systems, ecology, computer science, history, economics, and information theory.
 
 	I've reasoned about this framework from first principles, which means I've questioned and reexamined every single assumption I encountered, down to the philosophical nature of reality. {I've been looking for truth, and I believe I've stumbled upon the edges; it is now my duty to share it.}(strong)
 
@@ -65,8 +65,8 @@ section:(id="copyleft") "{©}(span|class="copyleft") ∞ Human Kind"
 section:(id="changelog") Change Log
 
 	x-change:
-		x-date: April 25, 2022
-		p: Published "Understanding Emergence" post
+		x-date: May 8, 2022
+		p: Published "Building a Metaphysics" post
 		p: Large scale site revamp—simplified the structure and evolved the design
 
 	x-change:

@@ -9,7 +9,7 @@ post:json
 		"content_name": "Building a Metaphysics",
 		"directory": "coalescence",
 		"author_name": "jak",
-		"published_date": "2022-05-07",
+		"published_date": "2022-05-08",
 		"version": 1
 	}
 }
@@ -19,11 +19,13 @@ post.content:sam->html
 +++
 section: Introduction
 
-	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em). As our first step, we will define what we mean by {Philosophy}(b) in the first place, and why it is important. We will then dedicate the bulk of the chapter to deriving a {Metaphysics}(b); this means that we will explore the fundamental question of "What Exists?". Finally, we will spend a little time with one of the components of the metaphysics, called the {Concept}(b).
+	This is the first chapter in a series that outlines a philosophical framework called {Cooperative Coalescence}(em)(a|href="{{base_url}}/coalescence").
 	
-	This might sound extremely academic and dense, but I do my best to walk through these ideas in small, reasonable steps, using grounded thought experiments. I encourage you to dive in and see how it goes. Even if it {does}(em) prove to be too dense, I encourage you to move on to the next chapter anyway and see if you ever end up making it back here.
+	As our first step, we will define what we mean by {Philosophy}(b) in the first place, and why it is important. We will then dedicate the bulk of the chapter to deriving a {Metaphysics}(b); this means that we will explore the fundamental question of "What Exists?". Finally, we will spend a little time describing one of the components of the metaphysics, called the {Concept}(b).
 	
-	The point of being this thorough is to provide the details for those who come looking for it; I imagine that most people may end up being drawn in by some of the higher level chapters later on, and I want this lower level philosophy to be here if and when they come looking for the foundations of those ideas.
+	This might sound extremely academic and dense, but I do my best to walk through these ideas in small, reasonable steps, using grounded thought experiments. I encourage you to dive in and see how it goes. Even if it {does}(em) prove to be too dense for now, I encourage you to move on to the next chapter anyway. Don't let this chapter stop you from getting to the higher level chapters; you can always come back later.
+	
+	The point of this chapter being so thorough is to provide the details for those who come looking for it. I imagine that most people may end up being drawn in by some of the higher level chapters later on, and I want this lower level philosophy to be here if (and when) some of them come looking for the foundations of those ideas. One of the driving factors for developing this system is to move past all of our collective "bad assumptions"; this chapter is me "showing my work".
 
 section: Philosophy in 60 Seconds
 
@@ -246,25 +248,53 @@ section: The Nature of a Concept
 
 	x-subsection: "How" are Concepts created?
 
-		One final thing to grapple with: "how" concepts are created. If you've been following along closely, you know that we've already answered this numerous times. However, {Competitive Individualism}(em) also gives us a competing answer to this question: that humans, through hard work and innovation, {create}(b) new concepts. This is another one of those poorly constructed axioms that stands on shaky ground. This is something that we'll find to be more and more true as we progress to later chapters but for now, we will make sure to distinguish that concepts are not created by humans, but "discovered".
+		One final thing to grapple with: "how" concepts are created. If you've been following along closely, you know that we've already answered this numerous times. However, {Competitive Individualism}(em) gives us a competing answer to this question that we should dismantle specifically: that humans, through hard work and innovation, {create}(b) new concepts. This is another one of those poorly constructed axioms that stands on shaky ground. This is something that we'll find to be more and more true as we progress to later chapters, but for now we will just make sure to distinguish that concepts cannot created by humans, only "discovered".
 
 		{Concepts are not created, but "discovered".}(strong)
 
 	x-subsection: In Summary
 
-		section:(class="new-concept") The Nature of Concepts
+		section:(class="recap") The Nature of Concepts
 
 			x-definition: 
-				Through asking some investigative questions about what concepts are like, we've determined:
+				Through asking some investigative questions about what concepts are like, we've determined that:
 
 				1. Abstract ideas—like numbers, rules, and information—are Concepts.
-				2. Material things can be "wrapped in" and represented by a Concept.
-				3. Concepts originate from the possibility space of matter.
+				2. Matter can be "wrapped in" and represented by a Concept.
+				3. Concepts originate from the possibilities of matter.
 				4. Everything in the mind is a Concept.
 				5. Concepts exist outside of time.
 				6. Concepts are discovered, not created.
 
 section: What We've Learned
 
-	yo
+	We've now covered all of the core concepts of the entire metaphysics for cooperative coalescence. Everything from here on will build on top of these ideas, while also making connections to other scientific disciplines like Cognitive Psychology and Systems Theory.
+
+	Let's review what we learned.
+
+	x-subsection: Philosophy
+
+		{Philosophy}(b) is the study of "fundamental questions", and {Metaphysics}(b) is a branch of philosophy that deals with the questions: "What exists? And what is it like?" Philosophy is important because the answers to "fundamental questions" affect all human institutions like Government, Law, Ethics, and Religion. Therefore, the socially dominant philosophical system impacts every aspect of your life, and you should know how to reason about it.
+
+		Within philosophy and other logical pursuits is the concept of an {Axiom}(b), which is an idea that is so self evident or irreducible that we accept it as fact. In other words, an axiom is an assumption. When building arguments, we should use only the most simple and reasonable axioms, and use as few as is necessary. When axioms are too high level or ungrounded ("Because I'm your father and I said so"), they don't hold any logical weight. Many of the assumptions we live by in the current philosophical system are built on poor axioms.
+
+	x-subsection: The Metaphysics of Coalescence
+
+		In traditional metaphysics, there is the concept of Concrete and Abstract objects, which are tangible (a desk) and non-tangible (a number) objects. We believe that this is not specific enough, and doesn't respect our modern understanding of physics; atomic particles do not "belong" to a desk.
+
+		We create the initial axiom of a new metaphysics based on the understanding that {Matter Exists}(b). We determine that if matter exists, then it has at least one property (its existence), and so all matter has properties. We point out that in our universe, particles have several properties, such as an electrical charge and a physical mass. By imagining a universe with one sizeless, motionless particle, we determine that the properties of matter are what determines the possibilities for matter.
+
+		From there, we imagine all of the possibilities of images a computer screen can display to help visualize the magnitude of possibility in the universe, and the difference between possibility and probability; just because something {can}(em) happen, doesn't mean it {will}(em). We also identify that the properties of matter create possibilities for conceptual relationships, like physics, math, chemistry and biology. We ultimately concluded that what actually exists inside the possibilities of matter is every possible concept in the universe.
+
+		Ultimately, we responded to our question of "What exists?" with the answer: the only thing that exists is Matter, but if Matter exists then Concepts also exist. Matter creates the physical basis of the universe, while concepts provide the structure and meaning.
+
+	x-subsection: The Nature of Concepts
+
+		Finally, we asked our follow up question in defining the metaphysics: "What is it like?" We noted that base component, matter, has an entire branch of science dedicated to answering the question: Physics. And so, we set out to ask and answer some questions about Concepts so that we could get a better understanding of what it is like.
+
+		We asked for some examples of concepts, and said that things like numbers, ideas, and information are concepts. We also determined that there are "wrappers" for grouping matter together, like the "concept of a desk". We then asked "where" concepts exist, and reiterated that they originate from the possibilities of matter, but that they can also exist inside the mind (or any computation system). By understanding that the properties of matter don't change, we determined that concepts exist outside of time: they have always been/will be a possiblity, and so the have always/will always exist. Finally, we made it clear that since concepts have always existed, they can not be created, only discovered.
+
+	x-subsection: Up next
+
+		Something
 +++
