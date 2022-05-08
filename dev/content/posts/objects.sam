@@ -36,7 +36,7 @@ section: Philosophy in 60 Seconds
 		section:(class="new-concept") Metaphysics
 			x-field: Philosophy
 			x-definition:
-				Metaphysics is the study of the fundamental questions of existence, matter, reality, and consciousness. Metaphysics is concerned with answering the question {"What are the things that exist?"}(em) as well as categorizing those "things".
+				Metaphysics is the study of the fundamental questions of existence, matter, reality, and consciousness. Metaphysics is concerned with answering the question {"What are the things that exist?"}(em), and the follow up {"What are they like?}(em)
 
 		What makes philosophy so important is that it is the foundation for every other branch of human thinking. Philosophy sits underneath Politics, Religion, and Ethics. The true power of a well designed philosophyical system is that it can provide a strong and stable base for human society. In other words, philosophy is how we can "scientifically" create a consistent and well reasoned worldview.
 
@@ -196,64 +196,73 @@ section: The Metaphysics of Coalescence
 
 		So now, let us answer our original question one more time: {What exists?}(strong)
 
-		Given everything we've covered, we now claim: The only things that exist are the elementary particles that make up atoms, which we'll call {Matter}(b). However, from the possibility space created by the properties of Matter emerges the non-physical {Concepts}(b).
+		Given everything we've covered, we now claim: The only things that exist are the elementary particles that make up atoms, which we'll call {Matter}(b). However, from the possibilities created by the properties of Matter emerges the non-physical {Concepts}(b).
 
 		section:(class="new-concept") Matter and Concepts
 			x-field: Cooperative Coalescence
 			x-field: Metaphysics
 			x-definition:
-				Matter and Concepts are the two base categories of "things that exist". Matter is the particles that make up the physical aspect of the universe, and non-tangible Concepts are what give structure and meaning to the universe.
+				Matter and Concepts are the two base categories of "things that exist". {Matter}(b) is the particles that make up the physical aspect of the universe, and {Concepts}(b) are the non-tangible possibilities of matter that give structure and meaning to the universe.
 
-		In the end, this doesn't end up being that different than the "Abstract/Concrete Object" dichotomy of traditional Ontology. However, the small differences and the reasoning behind them are important. Instead of calling a "Desk" a self contained concrete object and leaving it at that, we instead say that there exists some matter, and that the concept of a distinct "Desk Object" comes out of the possibility space of the matter itself. We no longer have to make incorrect assumptions about how physics works, since atoms don't "belong" to objects, but instead the objects {emerge}(em) from the atoms.
+		In the end, this doesn't end up being that different than the "Concrete/Abstract Object" dichotomy of traditional Ontology. However, the small differences and the reasoning behind them are important. Instead of calling the entirety of a "Desk" a self-contained concrete object and leaving it at that, we instead say that there exists some matter, and that the concept of a distinct "Desk Object" comes out of the possibility space of the matter itself. We no longer have to make incorrect assumptions about how physics works, since atoms don't "belong" to objects, but instead the idea of objects {emerge}(em) from the atoms.
 
 section: The Nature of a Concept
 
-	How do we define a concept if a definition is made out of concepts? This is the issue with working at the "bottom" of "existence"—we're in the territory of axioms, here.
-	
-	So instead of directly defining "Concepts", we will instead build up axioms, {assumptions}(em), about what we expect from them. We'll do that by thinking through some questions about what they are and where they come from, and end up with a list about what we can say about the nature of concepts.
-	
+	At this point, we've answered the primary question of metaphysics: {"What exists"?}(em) But remember that the task of defining a metaphysics also has a follow up question: {"What is it like?"}(strong)
+
+	Luckily for us, we've defined one of our two types of objects as {Matter}(b), which just so happens to have its own branch of science with a long and rigorous history: Physics. This is part of the beauty of this system; unlike the still somewhat abstract nature of a "Concrete Object", we don't have to describe what matter is like since physics does that for us.
+
+	The only thing left for us to do is answer the question: {"What are concepts like?"}(strong)
+
+	aside: In this section, we'll only be describing concepts, not proving those claims like we did before. In a way, the rest of the philosophical system will be concerned with providing proof and reinforcing these relationships. This will be another good section to check back in on frequently as you make progress reading through the entire system, so that you can answer old questions you had, and find new ones.
+
 	x-subsection: "What" are Concepts?
 
-		To begin, let's start with some examples.
+		Let's begin with some examples.
 		
-		The number three is a concept. The game of Baseball is a concept. The calendar is a concept, an hour is a concept, and "next tuesday" is a concept. The freezing point of water is a concept. The concept of concepts themselves is a concept.
+		The number three is a concept. The game of Baseball is a concept. The calendar is a concept, an hour is a concept, and "next tuesday" is a concept. The freezing point of water is a concept. The concept of concepts themselves is a concept. The concept of {matter}(em) is a concept.
 		
 		{Numbers, rules, and information are all concepts.}(strong)
 		
-		The {concept}(em) of your smartphone is an concept, which is separate from the {actual atoms}(em) that make up your phone. The concept of your phone's {screen}(em) is a concept, and the concept of its {battery}(em) is a concept too. Materially, these objects are all just atoms. The concepts of "screen", "battery", and "complete smartphone" are what give those atoms meaning in context.
+		The {concept}(em) of your smartphone is a concept, which is separate from the {matter}(em) that makes up your phone. The concept of your phone's {screen}(em) is a concept, and the concept of its {battery}(em) is a concept too. Materially, these objects are all just matter, but the concepts of "screen", "battery", and "complete smartphone" are what give the matter meaning in context. Another way to think about it: we can "wrap" matter in a concept to represent a distinct object.
 		
-		{The ideas that separate physical matter into distinct objects are concepts.}(strong)
+		{The ideas that categorize physical matter into distinct objects are concepts.}(strong)
 
 	x-subsection: "Where" are Concepts?
 
-		But where do concepts come from? We're talking about something that has no physical presence, so "where" is an awkward question. However, one answer does spring to mind: the mind itself. Our brain is made out of physical matter, but the thoughts that occur in our mind are concepts.
+		As we learned earlier, concepts originate from the possibility space that emerges from the properties of matter. However, that's not the only "place" that they can exist. As thinking human beings, we experience concepts in our mind. In fact, the brain is essentially a biological computer built to process concepts.
 		
-		{Everything in our mind must be a concept.}(strong)
+		{Concepts exist in the possibility space of the material universe.}(strong)
 		
-		Does this mean that concepts are thoughts that exist only in the mind? Well, no. Even before humans had the capacity to think, we can agree that "the concept of the number three" still existed, even if it hadn't been discovered by humans yet. And in millions of years if humanity has faded away, "the concept of the game of Baseball" would still exist, even if nobody had thought about it for eons and will never think of it again.
+		{Everything in our mind is a concept.}(strong)
 
-		{Concepts exist independently of the mind.}(strong)
+	x-subsection: "When" are Concepts?
 
-	x-subsection: "How" are Concepts created?
-
-		One final question we can ask is: how do concepts come into existence? You may have agreed with me that "the concept of the number three" still existed before being discovered by humans, but you might be more reluctant to agree that the "Happy Birthday Song" existed before humans {created}(em) it.
-
-		Let's look at it in a different way: 
+		While concepts can be processed inside a brain (or some other computation system) at a specific point in time, concepts themselves exist "outside" of time. Remember: the possibility space of the entire universe is dependent on the properties of its matter. Since the properties of matter don't change, the entire possibility space is {constant}(em) across the lifetime of the universe.
+		
+		This means that, even if humans didn't exist to think or talk about it, the "concept of the number 3" still existed one billion years ago. In fact, since concepts are "possibilities", even the concept of "The Happy Birthday Song" still existed one billion years ago.
 
 		{Concepts exist outside of time.}(strong)
 
+	x-subsection: "How" are Concepts created?
+
+		One final thing to grapple with: "how" concepts are created. If you've been following along closely, you know that we've already answered this numerous times. However, {Competitive Individualism}(em) also gives us a competing answer to this question: that humans, through hard work and innovation, {create}(b) new concepts. This is another one of those poorly constructed axioms that stands on shaky ground. This is something that we'll find to be more and more true as we progress to later chapters but for now, we will make sure to distinguish that concepts are not created by humans, but "discovered".
+
 		{Concepts are not created, but "discovered".}(strong)
 
-	Is it possible to simplify this definition any further? Should we even try? I don't think it matters much. This understanding that  concepts are non-physical things that "exist" regardless of whether they are discovered, is enough. Concepts are the "matter" of ideas. We can take this as an axiom.
+	x-subsection: In Summary
 
-	section:(class="new-concept") The Nature of Concepts
+		section:(class="new-concept") The Nature of Concepts
 
-		1. Abstract ideas—like numbers, rules, and information—are Concepts.
-		2. Material things can be "wrapped in" and represented by a Concept.
+			x-definition: 
+				Through asking some investigative questions about what concepts are like, we've determined:
 
-section: Abstractions
-
-	damn
+				1. Abstract ideas—like numbers, rules, and information—are Concepts.
+				2. Material things can be "wrapped in" and represented by a Concept.
+				3. Concepts originate from the possibility space of matter.
+				4. Everything in the mind is a Concept.
+				5. Concepts exist outside of time.
+				6. Concepts are discovered, not created.
 
 section: What We've Learned
 
