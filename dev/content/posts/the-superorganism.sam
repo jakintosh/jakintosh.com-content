@@ -9,8 +9,9 @@ post:json
 		"content_name": "The Superorganism",
 		"directory" : "coalescence",
 		"author_name": "jak",
-		"published_date": "20XX-XX-XX",
-		"version": 1
+		"published_date": "XXXX-XX-XX",
+		"version": 1,
+		"build": false
 	}
 }
 +++

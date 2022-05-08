@@ -9,8 +9,9 @@ post:json
 		"content_name": "Objects and Abstractions",
 		"directory" : "coalescence",
 		"author_name": "jak",
-		"published_date": "2022-05-01",
-		"version": 1
+		"published_date": "XXXX-XX-XX",
+		"version": 1,
+		"build": false
 	}
 }
 +++
@@ -157,7 +158,7 @@ section: Abstraction
 
 	x-subsection: Examples
 
-		Before we wrap up, I want to make sure 
+		Phone as a concrete -> abstract -> abstraction layer thing
 
 section: What We Learned
 

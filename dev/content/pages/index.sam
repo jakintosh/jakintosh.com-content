@@ -7,7 +7,8 @@ page.metadata:json
 	"author_name": "jak",
 	"published_date": "today",
 	"updated_date": "tomorrow",
-	"version": 1
+	"version": 1,
+	"build": true
 }
 +++
 
@@ -20,7 +21,7 @@ page.content:sam->html
 +++
 x-article-header:
 	x-title: jakintosh.com
-	x-date: May 8th, 2022: {Metaphysics}(a|href="coalescence/building-a-metaphysics.html")
+	x-date: May 8th, 2022: {Building a Metaphysics}(a|href="coalescence/building-a-metaphysics.html")
 
 section:(id="welcome") Welcome
 	

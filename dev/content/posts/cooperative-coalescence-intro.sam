@@ -10,7 +10,8 @@ post:json
 		"directory" : "coalescence",
 		"author_name": "jak",
 		"published_date": "2022-03-13",
-		"version": 1
+		"version": 1,
+		"build": true
 	}
 }
 +++
