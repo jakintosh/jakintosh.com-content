@@ -18,7 +18,7 @@ post:json
 
 post.content:sam->html
 +++
-section:
+section: Cooperative Coalescence
 
 	{Cooperative Coalescence}(em) is a new cultural operating system for humans. Its purpose is to help humans more easily navigate complexity, and to create a stronger intuition of what it means to be an individual that is part of a larger social organism.
 
@@ -49,4 +49,8 @@ section:
 		Much like the concepts it is designed to deal with, the components of the {Cooperative Coalescence}(em) operating system are highly interconnected and difficult to untangle. None of the components are new ideas, and the only thing I believe I can contribute is my perspective on how all of these pieces fit together. Instead of slowly teasing apart these pieces in private, I'll be doing so in public here on this site as separate posts.
 
 		The first few topics that I know are important are {"The Superorganism",}(strong) {"Systems Thinking",}(strong) and {"Cognitive Psychology".}(strong) Each topic breaks down one of the three false truths that {Competitive Individualism}(em) relies on, and then reconstructs it. These are the three topics that I'll start with, and as I go I'll build out the framework of connections that shape the operating system itself. The goal is to explore in depth all of the components, connect the pieces, and improve everything with feedback from others. In the end there will be a clear and concise package of self contained and easy to read material (a {manifesto}(em)) for anyone to pick up and understand what {Cooperative Coalescence}(em) is about.
+
+section: Up Next
+
+	In the first chapter, we'll build the foundational philosophy for this new cultural operating system: read about {Matter and Objects here}(a|href="{{base_url}}/coalescence/matter-and-concepts.html").
 +++
