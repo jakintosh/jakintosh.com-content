@@ -12,15 +12,5 @@
             "site_path": "coalescence/",
             "index_content": "pages/coalescence.html"
         }
-    ],
-    "content_types": {
-        "post": {
-            "name": "post",
-            "content_template": "post.tmpl"
-        },
-        "html": {
-            "name": "html",
-            "content_template": "content.tmpl"
-        }
-    }
+    ]
 }
