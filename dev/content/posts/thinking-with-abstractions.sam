@@ -35,7 +35,7 @@ section: Layers of Cognition
 		x-definition:
 			When the brain is processing information, it only has so much {working memory}(em) (short-term memory) that it can use to hold into information. Using more working memory increases the cognitive load. When we run out of working memory, our cognitive load hits a ceiling, and our ability to process information sharply declines. This is "Cognitive Overload".
 
-	Laying abstractions is helpful in reducing cognitive load, but another important trick of the human brain is that we can {shift between those layers}(em). We can zoom in and out of different abstractions when necessary, and in most cases we do this automatically.
+	Layering abstractions is helpful in reducing cognitive load, but another important trick of the human brain is that we can {shift between those layers}(em). We can zoom in and out of different abstractions when necessary, and in most cases we do this automatically.
 	
 	Like in our chess game: we can have a deep abstraction built around the state of the game, our current long term strategy, and the moves we are considering, but we can step out of the abstraction of our game to answer an unrelated question, or maybe to get up and get a glass of water.
 
