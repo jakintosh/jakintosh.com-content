@@ -396,6 +396,11 @@ nav a.nested {
 	padding-left: 1rem;
 }
 
+nav .ko-fi {
+	padding: 2pt;
+	margin-top: 1em;
+}
+
 /* ======== Content Sections ======== */
 
 section {
@@ -480,7 +485,7 @@ aside::before {
 
 
 .content-container>section>x-section-title::before {
-	content: "■ section "counter(section) ":";
+	content: "■ section " counter(section) ":";
 	font-weight: bold;
 	counter-increment: section;
 }
@@ -857,6 +862,19 @@ x-change p {
 	transform: scale(-1, 1);
 }
 
+#author .ko-fi .btn-container {
+	display: block !important;
+	margin: 0 auto;
+	margin-top: 3em;
+	min-width: inherit;
+	width: 150px;
+	white-space: inherit;
+}
+
+.ko-fi a:hover::after {
+	content: "";
+}
+
 x-arrow-connector {
 	display: block;
 	background-color: var(--fg);
@@ -886,7 +904,7 @@ x-arrow-connector::after {
 
 /* ======== Landscape Phones and Tablets ======== */
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1180px) {
 	:root {
 		--sidebar-gutter-width: 18vw;
 		--content-gutter-width: 0rem;
@@ -903,7 +921,7 @@ x-arrow-connector::after {
 
 /* ======== Mobile-Portrait ======== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 	:root {
 		--sidebar-gutter-width: 0rem;
 		--content-width: 100vw;
@@ -980,7 +998,7 @@ x-arrow-connector::after {
 
 /* ======== Enable Xray on Larger Screens ======== */
 
-@media screen and (min-width: 600px) and (any-hover: hover) {
+@media screen and (min-width: 1024px) and (any-hover: hover) {
 
 	.xray {
 		position: relative;

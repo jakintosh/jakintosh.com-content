@@ -1,0 +1,10 @@
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+    var color = getComputedStyle(document.documentElement).getPropertyValue('--accent-color');
+    kofiWidgetOverlay.draw('jakintosh', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': color,
+        'floating-chat.donateButton.text-color': '#fff'
+    });
+</script>
