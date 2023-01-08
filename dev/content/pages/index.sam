@@ -66,6 +66,10 @@ section:(id="copyleft") "{©}(span|class="copyleft") ∞ Human Kind"
 section:(id="changelog") Change Log
 
 	x-change:
+		x-date: January 7, 2023
+		p: Added Merveilles linkback, minor formatting changes
+
+	x-change:
 		x-date: May 8, 2022
 		p: Published "Matter and Concepts" post
 		p: Large scale site revamp—simplified the structure and evolved the design
