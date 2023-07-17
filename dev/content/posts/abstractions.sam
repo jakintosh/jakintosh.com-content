@@ -1,0 +1,109 @@
+type::post
+
+post:json
++++
+{
+	"title": "Abstractions and The Mind",
+	"slug": "abstractions-and-the-mind",
+	"metadata": {
+		"content_name": "Abstractions and The Mind",
+		"directory" : "coalescence",
+		"author_name": "jak",
+		"published_date": "2022-08-XX",
+		"version": 1,
+		"build": false
+	}
+}
++++
+
+post.content:sam->html
++++
+
+section: Introduction
+	 
+	Abstractions are the foundation of the mind. Our brain's ability to create and navigate abstractions is what allows us to have basic cognitive functions; without them, would be collapsed in a heap on the floor, unable to process the vast amount of sensory data flowing into our brain. On the other end of the spectrum, abstractions are also what allow us to create deep and complex thoughts, making them responsible for our ability to develop language, art, societies, and science.
+	
+	All of are relying on abstractions in every second of every day. And yet... most of us have never had an intentional and focused lesson on what abstractions {actually are}(em), and how they work. 
+	
+	{This is that intentional and focused lesson.}(strong)
+
+	section:(class="chapter-preview") Abstractions and The Mind
+		
+		In this chapter, we'll build the idea of {Abstraction}(b) on top of our metaphysics—matter and concepts—from the last chapter. Then, we'll start putting all of these big ideas to practical use by using them to explain how our brain processes information.
+
+		x-subsection: Prerequisites
+
+			Before reading this chapter, you should understand the following ideas:
+
+			1. {Concepts}(b) are the ideas, information, and relationships that make up the non-physical aspects of the universe.
+			2. Concepts emerge from the properties of {Matter}(b), which are the fundamental particles that make up the physical aspects of the universe.
+			3. Matter and Concepts are the two base level types of {Objects}(b) that exist in the universe.
+			4. Every concept in the universe has always existed and will always exist, since they exist within the possibility space of matter.
+			5. Materially, there's no separation between distinct objects like "Desk" and "Water Droplet"—that separation only exists conceptually.
+
+			If these statements don't make sense to you, you can read {Matter and Concepts}(a|href="{{base_url}}/coalescence/matter-and-concepts.html") to learn about them in detail, or just accept them as a given to continue on with this chapter.
+
+		x-subsection: Overview
+
+			In this chapter, we will:
+
+			1. Assemble the fundamental ideas of {Abstraction}(b) in a metaphysical context.
+			2. Look at how the {Mind}(b) actually uses abstractions to create {Thought}(b).
+			3. Dig deeper into {Cognition}(b) to see how abstraction lets our mind collapse, expand, and layer massive amounts of information.
+
+			By the end of this chapter, you should have a clear understanding of {how}(em) larger concepts are abstracted out of smaller ones, and how the human mind uses concepts and abstractions to enable {Cognition}(b).
+	
+	The goal of this chapter is to show you how to actually start {using}(em) this metaphysical framework in your day-to-day life to better understand yourself and the world around you.
+
+
+section: Fundamentals of Abstraction
+
+	- abstractions are concepts that wrap other concepts
+	- abstractions reduce many concepts into one concept
+	- abstractions can be nested
+	- abstracted
+	
+	x-subsection: A New Type of Concept
+
+		The basic principle of abstraction is very simple. {Essentially, an abstraction is a concept that wraps around one or more other concepts.}(strong) 
+		
+		aside: Like many of the components of this framework, abstraction is a very simple idea with interesting (and surprising) consequences—the rest of this chapter deals with those consequences.
+		
+		Abstractions can be simple collections—the concept of a "week" is an abstraction that wraps seven "days" into a single concept. {Abstractions can also contain other abstractions;}(strong) after all, they are composed of concepts, and an abstraction is also conceptual. This enables abstractions like "months" and "years" and "decades", which wrap around different numbers of days and weeks (and months and years).
+
+		However, abstractions can also be a lot more complicated than simple collections of concepts. The concept of "The United States of America" is an abstraction that encompasses millions of square miles of land, hundreds of millions of people, centuries of history, and trillions of dollars of economic activity per year.
+
+	x-subsection: Abstracting Matter
+
+		- 
+
+	x-subsection: Abstracting Root Concepts	
+
+section: The Mind
+
+	x-subsection: The Conscious Mind
+		Paragraph
+
+	x-subsection: The Mechanics of the Mind
+		Paragraph
+
+	x-subsection: The Nature of Thought
+		Paragraph
+
+section: Layers of Cognition
+
+	x-subsection: Understanding Cognitive Load
+		Paragraph
+
+	x-subsection: Information and Context
+		Paragraph
+
+
+section: Conclusion
+
+	x-subsection: What We've Learned
+		Some things
+
+	x-subsection: Up Next
+		Another chapter
++++

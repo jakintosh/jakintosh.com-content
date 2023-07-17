@@ -424,6 +424,7 @@ section.new-concept,
 section.thought-experiment,
 section.site-sections,
 section.recent-posts,
+section.prerequisites,
 section.chapter-preview,
 section.recap {
 	display: block;
@@ -436,6 +437,7 @@ section.status-quo,
 section.site-sections,
 section.recent-posts,
 section.chapter-preview,
+section.prerequisites,
 section.recap {
 	border: 1px solid var(--fg);
 	box-shadow: var(--fg2) 4pt 4pt 0;
@@ -504,11 +506,9 @@ section.thought-experiment>x-section-title::before {
 	content: "■ Thought Experiment";
 }
 
-section.site-sections>x-section-title::before {
-	content: "■ Content Group";
-}
-
-section.recent-posts>x-section-title::before {
+section.site-sections>x-section-title::before,
+section.recent-posts>x-section-title::before,
+section.prerequisites>x-section-title::before {
 	content: "■ Content Group";
 }
 

@@ -9,9 +9,9 @@ post:json
 		"content_name": "Abstractions and The Mind",
 		"directory" : "coalescence",
 		"author_name": "jak",
-		"published_date": "2022-05-XX",
+		"published_date": "2022-08-XX",
 		"version": 1,
-		"build": true
+		"build": false
 	}
 }
 +++
@@ -47,16 +47,6 @@ okay so i went and wrote a whole thing on philosophy and concepts now. so how do
 
 post.content:sam->html
 +++
-section: Prerequisites
-
-	Before reading this chapter, you should understand the following ideas:
-
-	1. {Concepts}(b) are the ideas, information, and relationships that make up the non-physical aspects of the universe.
-	2. Concepts emerge from the properties of {Matter}(b), which are the particles that make up the physical aspects of the universe.
-	3. Every concept in the universe has always existed and will always exist, since they exist within the {possibility space}(b) of matter.
-	4. Physically, there's no separation between distinct objects like "Desk" and "Water Droplet"; that separation only exists conceptually.
-
-	If these statements don't make sense to you, you can read {Matter and Concepts}(a|href="{{base_url}}/coalescence/matter-and-concepts.html") to learn about them in detail, or just accept them as a given to continue on with this chapter.
 
 section: Introduction
 
@@ -64,15 +54,86 @@ section: Introduction
 	
 	{This is that intentional and focused lesson.}(strong)
 
-	In order to talk about abstraction in a meaningful context, we'll first 
-
 	section:(class="chapter-preview") Abstractions and The Mind
 
 		In this chapter, we're 
 
-		1. Define what {Philosophy}(b) is in the first place, and why it is important
-		2. Derive a {Metaphysics}(b), which means we'll explore the fundamental question of {"What Exists?"}(em)
-		3. Describe the {Concept}(b), one of the key components of the metaphysics we'll develop
+		1. Something
+
+	x-subsection: Prerequisites
+
+		Before reading this chapter, you should understand the following ideas:
+
+		1. {Concepts}(b) are the ideas, information, and relationships that make up the non-physical aspects of the universe.
+		2. Concepts emerge from the properties of {Matter}(b), which are the particles that make up the physical aspects of the universe.
+		3. Matter and Concepts are the two base level types of {Objects}(b) that exist in the universe.
+		4. Every concept in the universe has always existed and will always exist, since they exist within the {possibility space}(b) of matter.
+		5. Materially, there's no separation between distinct objects like "Desk" and "Water Droplet"—that separation only exists conceptually.
+
+		If these statements don't make sense to you, you can read {Matter and Concepts}(a|href="{{base_url}}/coalescence/matter-and-concepts.html") to learn about them in detail, or just accept them as a given to continue on with this chapter.
+
+
+section: Fundamentals of Abstraction
+
+	The basic principle of abstraction is very simple—in fact, we've already covered a few great examples. In the last chapter, we discussed how particles of matter don't "belong" to objects like a desk, but that the concept of a desk "wraps" around some particles.
+	
+	This structure, where a new object (concept of desk) is a wrapper for other objects (physical particles), is the essence of abstraction.
+
+	section:(class="new-concept") Abstraction
+		x-field: Metaphysics
+		x-field: Philosophy
+		x-definition:
+			When we take any set of objects—whether they are physical particles or conceptual ideas—and group them into a container concept that represents the entire collection, the container concept is called an {Abstraction}(b).
+			
+			All abstractions, even when they exclusively represent matter, are conceptual since they are not themselves made out of matter.
+
+	Abstractions can be made to wrap around any amount of matter or concepts, and the resulting abstraction will always be one concept. For example, we can abstract a group of atoms into the concept of a molecule, or a group of people into the concept of a family.
+
+	{Within our metaphysics, abstractions can be seen as the glue that lets us combine matter and concepts into more complex structures.}(strong)
+
+	x-subsection: Abstracting Matter
+
+		One of the most fundamental ways we use abstractions in our day to day life is to simplify and make sense of Matter.
+
+		At the lowest level of abstraction are concepts that wrap around single particles of matter. Remember, the idea of something is seperate from the thing itself, and by abstracting matter as a concept, we gain the ability to further manipulate it conceptually. From there, we can abstract the different particles into some larger entities like protons, neutrons, and atoms.
+
+		aside: You might be asking: "Why do we need an abstraction that maps a single physical particle to the 
+		
+		This helps us better understand a key point from the last chapter, in that the only material things that exists in the universe are the fundamental particles and {not}(b) atoms. From within this framework, we can see that atoms are {abstractions}(em) around collections of those fundamental particles, and so {an atom is a conceptual entity}(strong).
+
+		Let's explore a larger example  we can take a herd of cows and identify each of the cows as individual {cow}(em) objects, but we can also group them all together as a single {herd}(em) object. The "herd" is an abstraction that wraps around all of the cows.
+
+		At the same time, each of those individual {cow objects}(em) is also an abstraction that wraps around a collection of animal organ systems that make up each cow, where each organ system is an abstraction that wraps around a collection of tissues that make up the organs, where each tissue is an abstraction that wraps around a collection of cells that make up the tissues, and so on. If we keep following this trail of abstractions, we'd eventually see that all of these layers end up encompassing a bunch of particles and the relationships between them that create something that we call "a herd of cows".
+
+		By layering abstractions, we can talk about 
+
+
+	x-subsection: Properties of Abstractions
+
+		So abstractions are concepts that represent
+
+
+	We can abstract some matter into the concept of a battery, and some other matter into the concept of a screen. However, we can further abstract those concepts into the concept of a smartphone. When you look at your phone, do you see a collection of parts, or a single whole? Do you even recognize the case on your phone as a separate object from the phone itself? Do you ever think about the molecules or atoms that make up all of the components? {Abstractions}(b) are what let us treat our phone as a single object, and is also what allows us to shift focus the the smaller parts when our screen is cracked, or our battery is failing.
+
+	Let's take a look at an more detailed example.
+
+	section:(class="thought-experiment") Abstractions in Chess
+		x-related-concept: Abstraction
+		
+		To play chess, you need 33 material objects: a flat checkered surface, 16 black pieces, and 16 white pieces. In our mind, we create concepts that represent those physical pieces: a chess board, pawns, knights, rooks, etc. Each of those concepts is an abstraction that wraps around the physical objects on the table. We can then take those abstractions and place them all inside {another}(em) abstraction that represents "the complete chess set".
+		
+		We also have concepts in our mind that represent the rules of chess, like the objective of the game and the legal moves for each individual piece. We create a "pawn" abstraction in our mind by grouping the "rule for pawn movement" concept with the "small black wooden piece" concept. The resulting abstraction is now a new entity within the context of the game, with the ability to move around the chess board and take enemy pieces.
+		
+		{Remember, this abstraction of a "pawn" lives only in our (and our opponent's) mind—the little piece of wood doesn't actually have restrictions on it's physical movement.}(em)
+		
+		We build layers of abstraction in our mind about what the pieces are, if they are friendly or enemy, how they are allowed to move, what is our current strategy, and so on. {Even the entire context of the game is an abstraction}(em), and if someone outside the game were to walk up to us and ask us a question while playing, we could mentally move ourselves outside the abstraction of the chess game, answer the question, and return to it.
+	
+	Aside from just chess, we use abstractions for {everything}(em), whether we're conscious of it or not. Language is a great example; words are abstractions for the concepts they refer to (again, "the word is not the thing"). We use abstractions to separate our work from our play, to organize all of our knowledge, and to keep track of all the different guys named "Mike" that we know.
+
+	x-subsection: Examples
+
+		Phone as a concrete -> abstract -> abstraction layer thing
+
 
 section: The Mind
 
@@ -84,7 +145,7 @@ section: The Mind
 
 		Once again, we start with a question: {"What is a thought?"}(b) or, before that, {"What is thinking?"}(b)
 
-		I think we can agree that thinking happens somewhere in the brain. We can broadly categorize the activity of our brain into two categories: the subconscious and the conscious.
+		It seems correct to say that thinking happens somewhere in the brain. We can broadly categorize the activity of our brain into two categories: the subconscious and the conscious.
 		
 		The {Subconscious}(b) is our background processes: it is our sensory functions, our motor skills, the rhythm of our breath. Meanwhile, the {Conscious}(b) is our "intentional thought": it is our inner monologue, decision making, and daydreams... our "consciousness".
 		
@@ -103,77 +164,40 @@ section: The Mind
 
 		The mind is more than just a sea of concepts: the concepts also have relationships to other concepts. These connections can look like the "pizza" and "ramen" concepts both pointing to a "food" concept, or the "Hey Jude" concept pointing to "The Beatles" concept in addition to a collection of concepts representing memories of that song being played.
 		
-		The relationships between objects are like "links" on a webpage. What we end up with is something that resembles the World Wide Web: a bunch of objects in our mind that have "links" to other objects, that have more links to other objects, creating an endless web of associated objects.
+		The relationships between concepts are like "links" on a webpage. What we end up with is something that resembles the World Wide Web: a bunch of concepts in our mind that have "links" to other concepts, that have more links to other concepts, creating an endless web of associated concepts.
 
 	x-subsection: The Nature of Thought
 
 		And so we ask again: {What is a thought?}(b)
 		
-		{A thought is the process of following the "links" between objects in your mind.}(strong)
+		{A thought is the process of following the "links" between concepts in your mind.}(strong)
 		
-		aside: We see this truth reveal itself in language like "train of thought". When we "lose our train of thought", we usually regain it by trying to remember the most recent object we can, and then following the same links between objects in our mind.
+		aside: We see this truth reveal itself in language like "train of thought". When we "lose our train of thought", we usually regain it by trying to remember the most recent concept we can, and then following the same links between concepts in our mind.
 		
 		This form of thinking, called {Associative Thinking}(b), is the most common and is also the foundation for all types of thought.
 
 		section:(class="new-concept") Thought
 			x-field: Philosophy
 			x-definition:
-				A "thought" is the process of creating a string of connected objects in your mind. Thoughts can have many sizes and shapes, but the common thread between all of them is that in order to think, we must {follow links between objects}(em).
+				A "thought" is the process of creating a string of connected concepts in your mind. Thoughts can have many sizes and shapes, but the common thread between all of them is that in order to think, we must {follow links between concepts}(em).
 
-		Sometimes the intention behind a thought is to reach the final object—in this case the thought is a "search". Other times the goal is to create the complete string of objects itself–this would be a "synthesis of ideas", common when learning or creating new knowledge (which are arguably the same thing).
+		Sometimes the intention behind a thought is to reach the final concept—in this case the thought is a "search". Other times the goal is to create the complete string of concepts itself–this would be a "synthesis of ideas", common when learning or creating new knowledge (which are arguably the same thing).
 		
-		Using these building blocks of {associative thinking}(em), we can perform more complex types of thinking like {Pattern Recognition}(b). In this form of thinking we still follow links between objects, but we are also matching the objects we encounter against certain patterns. This lets us filter or synthesize information in more complex ways.
+		Using these building blocks of {associative thinking}(em), we can perform more complex types of thinking like {Pattern Recognition}(b). In this form of thinking we still follow links between concepts, but we are also matching the concepts we encounter against certain patterns. This lets us filter or synthesize information in more complex ways.
 
 		To help reinforce these concepts, let's look at some example thought processes.
 
 		section:(class="thought-experiment") Thinking About Thinking
-			x-related-concept: Abstract Objects
+			x-related-concept: Concepts
 		
 			Here are some cool examples :)
 
 
-section: Abstractions are Concepts
-
-	The basic principle of abstraction is very simple. In fact, we've already In the first chapter, we saw how {matter}(em) doesn't separate itself into distinct objects like a desk or book, but that the {concept}(em) of a desk can be "wrapped" around some particles to conceptually group them as "a desk".
-	
-	{This is the essence of abstraction: a conceptual wrapper for other matter or concepts.}(strong)
-	
-	section:(class="new-concept") Abstraction
-		x-field: Metaphysics
-		x-field: Philosophy
-		x-definition:
-			An abstraction is the result of wrapping one or many objects—both material and/or conceptual—inside a separate . The new object—the abstraction—becomes a simplified way to refer to a collection of things as one thing.
-
-	We can {abstract}(em) some matter into the concept of a battery, and some other matter into the concept of a screen. However, we can further abstract those objects into the concept of a smartphone.
-	
-	When you look at your phone, do you see a collection of parts, or a single whole? Do you even recognize the case on your phone as a separate object from the phone itself? Do you ever think about the molecules or atoms that make up all of the components? {Abstractions}(b) are what let us treat our phone as a single object.
-
-	
-	Let's take a look at an example.
-
-	section:(class="thought-experiment") Abstractions in Chess
-		x-related-concept: Abstraction
-		
-		To play chess, you need 33 physical objects: a flat checkered surface, 16 black pieces, and 16 white pieces. In our mind, we create abstract concepts that represent those physical pieces: a chess board, pawns, knights, rooks, etc. We can then take those abstractions and place them all inside {another}(em) abstraction that represents "a complete chess set".
-		
-		We also have abstract objects in our mind that represent the rules of chess, like the objective of the game and how pieces are allowed to move. We create a "pawn" by attaching the rule object for a pawn with the small black wooden piece object. The resulting abstraction is now a new entity within the context of the game, with the ability to move around the chess board and take enemy pieces.
-		
-		{Remember, this abstraction of a "pawn" lives only in our (and our opponent's) mind—the little piece of wood doesn't actually have restrictions on it's physical movement.}(em)
-		
-		We build layers of abstraction in our mind about what the pieces are, if they are friendly or enemy, how they are allowed to move, what is our current strategy, and so on. {Even the entire context of the game is an abstraction}(em), and if someone outside the game were to walk up to us and ask us a question while playing, we could mentally move ourselves outside the abstraction of the chess game, answer the question, and return to it.
-	
-	Aside from just chess, we use abstractions for {everything}(em), whether we're conscious of it or not. Language is a great example; {words}(em) are abstractions for the objects they refer to (again, "the word is not the thing"). We use abstractions to separate our work from our play, to organize all of our knowledge, and to keep track of all the different guys named "Mike" that we know.
-
-	x-subsection: Examples
-
-		Phone as a concrete -> abstract -> abstraction layer thing
-
 section: Layers of Cognition
-
 
 	The most powerful property of abstractions is that we can layer them—in other words, that we can abstract an abstraction.
 	
-	Our entire perception of reality is built out of layered abstractions. In order to "see", raw light hitting our retinas is abstracted into images, those images are abstracted into distinct objects, and those objects are abstracted into the concept of a desk, or a bike. We're not actually seeing a "bike"—we're processing a bunch of {light that bounced off the bike}(em) and hit our retinas. But through the power of those layered abstractions, we can interpret that raw light as "a bike".
+	Our entire perception of reality is built out of layered abstractions. In order to "see", raw light hitting our retinas is abstracted into images, those images are abstracted into distinct concepts, and those concepts are abstracted into the concept of a desk, or a bike. We're not actually seeing a "bike"—we're processing a bunch of {light that bounced off the bike}(em) and hit our retinas. But through the power of those layered abstractions, we can interpret that raw light as "a bike".
 	
 	The ability to layer these abstractions helps us maintain a manageable {cognitive load}(em) in our brain. Without this ability to simplify those millions of dots of light into a single "bike" concept, we would max out our cognitive load and be incapable of functioning.
 
@@ -222,7 +246,9 @@ section: Information and Context
 		
 		However, there's also risk with that abstraction. If we take that abstraction outside of it's context and use "Mike" while talking to our mom, she won't know who we're talking about unless we've explicitly established a context of who "Mike" is in our conversation.
 		
-		Even worse is if we used the shortened "Mike" (referring to Mr Jordan) in a conversation with our neighbor. In that case there's a direct conflict between contexts, and the neighbor may interpret "Mike" as "Michael Bay" down the street. {This is the danger of removing an abstraction from its context.}(strong)
+		Even worse is if we used the shortened "Mike" (referring to Mr Jordan) in a conversation with our neighbor. In that case there's a direct conflict between contexts, and the neighbor may interpret "Mike" as "Michael Bay" down the street.
+		
+		{This is the danger of removing an abstraction from its context.}(strong)
 
 section: What We Learned
 
